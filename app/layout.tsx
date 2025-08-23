@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "IQCCT'25 - International Conference on Communications and Quantum Technologies",
+  title: "IQCCT'26 - International Conference on Communications and Quantum Technologies",
   description:
     "International Conference on Communications and Quantum Technologies organized by KPR Institute of Engineering and Technology",
   generator: "v0.dev",

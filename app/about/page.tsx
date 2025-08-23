@@ -44,7 +44,7 @@ export default function AboutPage() {
                       <strong>KPRIET</strong> – KPR Institute of Engineering and Technology was established in the year{" "}
                       <strong>2009</strong>. KPRIET is a{" "}
                       <strong>
-                        top-notch institute with a strength of 260 eminent faculty members, 3,500 students and 280
+                        top-notch institute with a strength of 260 eminent faculty members, 4,500 students and 280
                         administrative and support staff
                       </strong>
                       . A self-contained campus, located in a <strong>lush green environment of about 66 acres</strong>,

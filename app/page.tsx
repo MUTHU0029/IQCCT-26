@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h1 className="text-2xl md:text-3xl font-bold text-green-700 mb-8">
