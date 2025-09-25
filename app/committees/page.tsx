@@ -31,37 +31,56 @@ export default function CommitteesPage() {
     {
       name: "Dr. M. Kathirvelu",
       title: "Professor & Head, ECE, KPRIET",
-      image: "/placeholder.svg?height=200&width=200&text=Dr+Kathirvelu",
-    },
-    {
-      name: "K. Mohana Sundaram",
-      title: "Professor & Head, EE, KPRIET",
-      image: "/placeholder.svg?height=200&width=200&text=K+Mohana",
+      image: "/hod.jpeg",
     },
   ]
 
   const conferenceCoordinators = [
-    { name: "Dr. S. Finney Daniel Shadrach", affiliation: "KPRIET, Coimbatore, India" },
-    { name: "Dr. G. Saravanan", affiliation: "KPRIET, Coimbatore, India" },
+    { name: "Dr.MURALIDHARAN J", affiliation: " Associate Professor - KPRIET, Coimbatore, India" },
   ]
 
   const technicalCommittee = [
-    { name: "Dr. Indra J", title: "Professor, Communications Systems, KPRIET" },
-    { name: "Dr. Kalamani M", title: "Professor, Quantum Technologies, KPRIET" },
-    { name: "Dr. Venugopal D", title: "Professor, Wireless Communications, KPRIET" },
-    { name: "Dr. Ramesh S M", title: "Professor, Signal Processing, KPRIET" },
-    { name: "Dr. Seethalakshmi V", title: "Professor, Quantum Computing, KPRIET" },
-    { name: "Dr. Kalirajan K", title: "Professor, Network Security, KPRIET" },
-    { name: "Dr. Maheswar R", title: "Professor, Optical Communications, KPRIET" },
-    { name: "Dr. Jai Shankar B", title: "Professor, Quantum Cryptography, KPRIET" },
-    { name: "Dr. V. S. Chandrika", title: "Professor, 5G/6G Technologies, KPRIET" },
+   { name: "Dr. Indra J", title: "Professor, KPRIET" },
+  { name: "Dr. Kalamani M", title: "Professor, KPRIET" },
+  { name: "Dr. Venugopal D", title: "Professor, KPRIET" },
+  { name: "Dr. Seethalakshmi V", title: "Professor, KPRIET" },
+  { name: "Dr. Kalirajan K", title: "Professor, KPRIET" },
+  { name: "Dr. Maheswar R", title: "Professor, KPRIET" },
+  { name: "Dr. Jai Shankar B", title: "Professor, KPRIET" },
+  { name: "Dr. Gurumoorthy K B", title: "Associate Professor, KPRIET" },
+  { name: "Dr. Jaikumar R", title: "Associate Professor, KPRIET" },
+  { name: "Dr. Murugan K", title: "Associate Professor, KPRIET" },
+  { name: "Dr. Finney Daniel Shadrach S", title: "Associate Professor, KPRIET" },
+  { name: "Dr. Arijit De", title: "Associate Professor, KPRIET" },
+  { name: "Mr. Jakir Hussain G K", title: "Assistant Professor , KPRIET" },
+  { name: "Dr. Prasad J", title: "Assistant Professor , KPRIET" },
+  { name: "Dr. Jagadesh T", title: "Assistant Professor , KPRIET" },
+  { name: "Dr. Nithya S", title: "Assistant Professor , KPRIET" },
+  { name: "Dr. Venkatesh T", title: "Assistant Professor , KPRIET" },
+  { name: "Ms. Archita Hore", title: "Assistant Professor , KPRIET" },
+  { name: "Mr. Pradeep Kumar G", title: "Assistant Professor, KPRIET" },
+  { name: "Mr. Balamurali S", title: "Assistant Professor, KPRIET" },
+  { name: "Dr. Singaram M", title: "Assistant Professor, KPRIET" },
+  { name: "Mrs. Priyadharshini S", title: "Assistant Professor, KPRIET" },
+  { name: "Mr. Shanmugaraja T", title: "Assistant Professor, KPRIET" },
+  { name: "Mr. Ram Nivas D", title: "Assistant Professor, KPRIET" },
+  { name: "Mrs. Gunanandhini S", title: "Assistant Professor, KPRIET" },
+  { name: "Mrs. Suganyadevi S", title: "Assistant Professor, KPRIET" },
+  { name: "Ms. Saranya M D", title: "Assistant Professor, KPRIET" },
+  { name: "Ms. Supriya M", title: "Assistant Professor, KPRIET" },
+  { name: "Dr. Rima Deka", title: "Assistant Professor, KPRIET" },
+  { name: "Mr. Debashish Pal", title: "Assistant Professor, KPRIET" },
+  { name: "Mr. Ashish Ranjan Shadangi", title: "Assistant Professor, KPRIET" },
+  { name: "Dr. Himangshu Deka", title: "Assistant Professor, KPRIET" },
+  { name: "Ms. Anju T S", title: "Assistant Professor, KPRIET" },
+  { name: "Dr. Sharmi Ganguly", title: "Assistant Professor, KPRIET" },
   ]
 
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
 
-      <div className="pt-10 pb-16">
+      <div className="pt-10 pb-10">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <Card className="shadow-lg border border-gray-200 rounded-lg">
@@ -108,7 +127,7 @@ export default function CommitteesPage() {
                     Conference Chairs
                   </h2>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                  <div className="grid grid-cols-1 md:grid-cols-1 gap-12 max-w-2xl mx-auto">
                     {conferenceChairs.map((chair, index) => (
                       <div
                         key={index}

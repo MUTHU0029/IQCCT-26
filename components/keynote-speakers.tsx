@@ -2,20 +2,20 @@ import Image from "next/image"
 
 const KeynoteSpeakers = () => {
   const speakers = [
-    {
-      name: "Dr. Sarah Johnson",
-      title: "AI Research Director",
-      organization: "MIT Technology Lab",
-      image: "/placeholder.svg?height=200&width=200&text=Dr.+Sarah+Johnson",
-      topic: "Future of Artificial Intelligence in Smart Systems",
-    },
-    {
-      name: "Prof. Michael Chen",
-      title: "Robotics Engineer",
-      organization: "Stanford University",
-      image: "/placeholder.svg?height=200&width=200&text=Prof.+Michael+Chen",
-      topic: "Autonomous Robotics and Human-Machine Interaction",
-    },
+    // {
+    //   name: "Dr. Sarah Johnson",
+    //   title: "AI Research Director",
+    //   organization: "MIT Technology Lab",
+    //   image: "/placeholder.svg?height=200&width=200&text=Dr.+Sarah+Johnson",
+    //   topic: "Future of Artificial Intelligence in Smart Systems",
+    // },
+    // {
+    //   name: "Prof. Michael Chen",
+    //   title: "Robotics Engineer",
+    //   organization: "Stanford University",
+    //   image: "/placeholder.svg?height=200&width=200&text=Prof.+Michael+Chen",
+    //   topic: "Autonomous Robotics and Human-Machine Interaction",
+    // },
     {
       name: "Dr. Priya Sharma",
       title: "Power Electronics Expert",
@@ -26,8 +26,8 @@ const KeynoteSpeakers = () => {
   ]
 
   return (
-    <section className="py-16 bg-white">
-      <div className="container mx-auto px-6">
+    <section className="py-2 bg-white">
+      <div className="container-center px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-green-700 mb-4">Keynote Speakers</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -35,7 +35,7 @@ const KeynoteSpeakers = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 justify-items-center">
           {speakers.map((speaker, index) => (
             <div
               key={index}
@@ -60,9 +60,9 @@ const KeynoteSpeakers = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-green-700 text-white px-8 py-3 rounded-full font-medium  transition-colors">
+          {/* <button className="bg-green-700 text-white px-8 py-3 rounded-full font-medium  transition-colors">
             View All Speakers
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

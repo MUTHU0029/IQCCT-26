@@ -231,10 +231,17 @@ export default function ContactPage() {
         </div>
         <h3 className="text-2xl font-bold mb-1">Visit Our Campus</h3>
         <p className="text-lg font-medium">KPRIET, Coimbatore</p>
-        <Button className="mt-4 bg-green-700 hover:bg-green-800 text-white shadow-lg hover:shadow-xl transition-all duration-300">
-          <MapPin className="w-4 h-4 mr-2" />
-          Open in Google Maps
-        </Button>
+        <a
+  href="https://www.google.com/maps/place/KPRIET,+Coimbatore"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button className="mt-4 bg-green-700 hover:bg-green-800 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+    <MapPin className="w-4 h-4 mr-2" />
+    Open in Google Maps
+  </Button>
+</a>
+
       </div>
     </div>
   </CardContent>

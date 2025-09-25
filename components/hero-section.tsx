@@ -61,7 +61,7 @@ Quantum Computing and Communication Technologies
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                <span className="text-lg">📅 March 15-16, 2026</span>
+                <span className="text-lg">📅 April 10-11, 2026</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>

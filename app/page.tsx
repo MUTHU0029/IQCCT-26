@@ -27,7 +27,8 @@ export default function Home() {
 
                 <div className="space-y-6 text-gray-700 leading-relaxed">
                   <p>
-                    The International Conference on Communications and Quantum Technologies (IQCCT'25) is a prestigious
+                    International Conference on Recent Advances in Interdisciplinary
+Quantum Computing and Communication Technologies(IQCCT'26) is a prestigious
                     event organized by KPR Institute of Engineering and Technology (KPRIET). This conference serves as a
                     dynamic platform for researchers, academicians, industry professionals, and students to showcase
                     their latest findings and advancements in communications, quantum computing, quantum cryptography,
@@ -37,13 +38,13 @@ export default function Home() {
                   <p>
                     With the rapid evolution of quantum technologies and advanced communication systems, fields such as
                     quantum computing, quantum communication, 5G/6G networks, IoT communications, and quantum
-                    cryptography are driving innovation across industries. IQCCT'25 aims to facilitate insightful
+                    cryptography are driving innovation across industries. IQCCT'26 aims to facilitate insightful
                     discussions, knowledge sharing, and collaboration through keynote addresses, technical sessions, and
                     interactive workshops led by experts in quantum technologies and communications.
                   </p>
 
                   <p>
-                    We warmly welcome all researchers, scholars, and technology enthusiasts to be a part of IQCCT'25 at
+                    We warmly welcome all researchers, scholars, and technology enthusiasts to be a part of IQCCT'26 at
                     KPRIET. Join us as we explore groundbreaking ideas in quantum technologies, advance communication
                     systems, and shape the future of quantum-enabled technologies.
                   </p>
@@ -59,7 +60,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-10 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h1 className="text-2xl md:text-3xl font-bold text-green-700 mb-8">
@@ -96,9 +97,10 @@ export default function Home() {
 
       <section className="py-16 bg-green-700 text-white">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-6">Join IQCCT'25</h2>
+          <h2 className="text-3xl font-bold mb-6">Join IQCCT'26</h2>
           <p className="text-xl mb-8 opacity-90">
-            Submit your research paper in Communications and Quantum Technologies
+            Submit your research paper in International Conference on Recent Advances in Interdisciplinary
+Quantum Computing and Communication Technologies(IQCCT'26)
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-green-700 px-8 py-3 rounded-full font-medium hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">

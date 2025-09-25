@@ -149,20 +149,23 @@ export default function GuidelinesPage() {
                             all requirements for communications and quantum technology papers
                           </p>
                         </div>
-                        <div className="flex flex-col space-y-4 min-w-[300px]">
-                          <button className="border-2 border-green-700 text-green-700 hover:bg-green-700 hover:text-white py-4 px-8 rounded-lg font-semibold text-lg transition-all duration-300">
-                            <FileText className="w-5 h-5 inline mr-2" />
-                            Download Paper Template
-                          </button>
-                          <button className="border-2 border-green-700 text-green-700 hover:bg-green-700 hover:text-white py-4 px-8 rounded-lg font-semibold text-lg transition-all duration-300">
-                            <Users className="w-5 h-5 inline mr-2" />
-                            Download Presentation Template
-                          </button>
-                          <button className="bg-gray-100 text-green-700 hover:bg-gray-200 py-4 px-8 rounded-lg font-semibold text-lg transition-all duration-300">
-                            <Download className="w-5 h-5 inline mr-2" />
-                            Complete Guidelines PDF
-                          </button>
-                        </div>
+                        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 justify-center w-full">
+  <button className="flex items-center justify-center border-2 border-green-700 text-green-700 hover:bg-green-700 hover:text-white py-4 px-6 sm:px-8 rounded-lg font-semibold text-lg transition-all duration-300 w-full sm:w-auto">
+    <FileText className="w-5 h-5 inline mr-2" />
+    Download Paper Template
+  </button>
+
+  <button className="flex items-center justify-center border-2 border-green-700 text-green-700 hover:bg-green-700 hover:text-white py-4 px-6 sm:px-8 rounded-lg font-semibold text-lg transition-all duration-300 w-full sm:w-auto">
+    <Users className="w-5 h-5 inline mr-2" />
+    Download Presentation Template
+  </button>
+
+  <button className="flex items-center justify-center bg-gray-100 text-green-700 hover:bg-gray-200 py-4 px-6 sm:px-8 rounded-lg font-semibold text-lg transition-all duration-300 w-full sm:w-auto">
+    <Download className="w-5 h-5 inline mr-2" />
+    Complete Guidelines PDF
+  </button>
+</div>
+
                       </div>
                     </CardContent>
                   </Card>

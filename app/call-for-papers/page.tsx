@@ -9,25 +9,25 @@ export default function CallForPapersPage() {
     {
       icon: Send,
       title: "Paper Submission Deadline",
-      date: "May 31, 2025",
+      date: "January 31, 2026",
       color: "text-green-600",
     },
     {
       icon: CheckCircle,
       title: "Notification of Acceptance",
-      date: "June 10, 2025",
+      date: "February 20, 2026",
       color: "text-green-600",
     },
     {
       icon: Calendar,
       title: "Camera-Ready Submission",
-      date: "June 18, 2025",
+      date: "March 1, 2026",
       color: "text-green-600",
     },
     {
       icon: Users,
       title: "Conference Date",
-      date: "July 18, 2025",
+      date: "April 10-11, 2026",
       color: "text-green-600",
     },
   ]

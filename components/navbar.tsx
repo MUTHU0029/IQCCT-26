@@ -53,7 +53,7 @@ const Navbar = () => {
     { name: "Committees", href: "/committees" },
     { name: "Guidelines", href: "/guidelines" },
     { name: "Call for Papers", href: "/call-for-papers" },
-    { name: "Speakers", href: "/speakers" },
+    //{ name: "Speakers", href: "/speakers" },
     { name: "Schedule", href: "/schedule" },
     { name: "Register", href: "/register" },
     { name: "Plagiarism Policy", href: "/plagiarism" },
@@ -89,10 +89,29 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
             <div className="max-w-7xl mx-auto px-6 h-full">
               <div className="flex justify-between items-center h-full">
                 <div className="flex items-center">
-                  <div className="w-20 h-20 relative flex-shrink-0 mr-4">
-                    <Image src="/aicte-logo-official1.png" alt="AICTE Logo" fill className="object-contain" />
-                  </div>
-                </div>
+  {/* AICTE logo */}
+  <div className="w-20 h-20 relative flex-shrink-0 mr-4">
+    <Image
+      src="/aicte-logo-official1.png"
+      alt="AICTE Logo"
+      fill
+      className="object-contain"
+    />
+  </div>
+
+  {/* Text next to AICTE logo */}
+  <div className="hidden sm:block">
+    <div className="text-sm font-bold text-[#2d3748] leading-tight">
+      All India Council for
+      <br />
+      Technical Education
+    </div>
+    <div className="text-xs text-[#718096] mt-2 leading-tight">
+      Government of India | New Delhi
+    </div>
+  </div>
+</div>
+
 
                 <div className="flex-1 text-center px-4 md:px-8">
                   <h1 className="text-[13px] md:text-lg text-[#2d3748] leading-relaxed font-normal">
@@ -119,7 +138,7 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
                       Avinashi Road, Arasur, Coimbatore
                     </div>
                   </div>
-                  <div className="w-20 h-20 relative flex-shrink-0">
+                  <div className="w-25 h-25 relative flex-shrink-0">
                     <Image
                       src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kpriet%20logo-2ZbJN1Sf9qibemRScHdX9K44LKLG2u.webp"
                       alt="KPR Institute Logo"

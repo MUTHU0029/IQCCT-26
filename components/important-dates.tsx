@@ -2,27 +2,27 @@ const ImportantDates = () => {
   const dates = [
     {
       event: "Paper Submission Deadline",
-      date: "January 15, 2025",
+      date: "January 31, 2026",
       status: "upcoming",
     },
     {
       event: "Notification of Acceptance",
-      date: "February 10, 2025",
+      date: "February 20, 2026",
       status: "upcoming",
     },
     {
       event: "Camera Ready Submission",
-      date: "February 25, 2025",
+      date: "March 1, 2026",
       status: "upcoming",
     },
     {
       event: "Early Bird Registration",
-      date: "March 1, 2025",
+      date: "March 15, 2026",
       status: "upcoming",
     },
     {
       event: "Conference Dates",
-      date: "March 15-16, 2025",
+      date: "April 10-11, 2026",
       status: "conference",
     },
   ]
@@ -46,7 +46,7 @@ const ImportantDates = () => {
       </div>
 
       <div className="mt-6 pt-4 border-t border-gray-200">
-        <button className="w-full bg-green-700 text-white py-2 px-4 rounded-lg font-medium text-sm hover:bg-[#3d5a80] transition-colors">
+        <button className="w-full bg-green-700 text-white py-2 px-4 rounded-lg font-medium text-sm  hover:bg-yellow-300 transition-colors">
           Submit Your Paper
         </button>
       </div>

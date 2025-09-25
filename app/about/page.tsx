@@ -11,15 +11,15 @@ export default function AboutPage() {
     {
       name: "Audi Showroom",
       logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/audi-0A7K1zthmpXpDviU3uzS0KTJiILjIr.png",
-    }, // Updated to use provided Audi logo
+    },
     {
       name: "KPRIAS Academy",
       logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kpr%20ias.jpg-9nYOt8B55kGCz6LZYxcEuTIEACZ7Cg.jpeg",
-    }, // Updated to use provided KPRIAS logo
+    },
     {
       name: "KPRIET Institutions",
       logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kpriet%20logo-2ZbJN1Sf9qibemRScHdX9K44LKLG2u.webp",
-    }, // Updated to use provided KPRIET logo
+    },
     { name: "KPR Sugar Mill Limited", logo: "/sugar-mill-logo.png" },
     { name: "KPR Faso Mens wear", logo: "/faso-logo.png" },
   ]
@@ -27,14 +27,13 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
-
       <div className="pt-10 pb-16">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <Card className="shadow-lg border border-gray-200 rounded-lg">
               <CardContent className="p-12">
                 {/* About KPR Institution Section */}
-                <section className="mb-16">
+                <section className="mb-24">
                   <h1 className="text-3xl font-bold text-green-700 mb-8 border-l-4 border-green-700 pl-4">
                     About KPR Institution
                   </h1>
@@ -88,7 +87,7 @@ export default function AboutPage() {
                 </section>
 
                 {/* KPR Groups Section */}
-                <section>
+                <section className="mb-24">
                   <h2 className="text-3xl font-bold text-green-700 mb-12 border-l-4 border-green-700 pl-4">
                     KPR Groups include :
                   </h2>
@@ -107,6 +106,33 @@ export default function AboutPage() {
                         <p className="text-sm text-gray-700 leading-tight">{group.name}</p>
                       </div>
                     ))}
+                  </div>
+                </section>
+
+                {/* About ECE Section */}
+                <section>
+                  <h1 className="text-3xl font-bold text-green-700 mb-8 border-l-4 border-green-700 pl-4">
+                    About ECE
+                  </h1>
+
+                  <div className="text-gray-700 leading-relaxed space-y-6">
+                    <p>
+                      The Department of <strong>Electronics and Communication Engineering (ECE)</strong> at KPRIET 
+                      is committed to providing cutting-edge education and research opportunities in the field of 
+                      electronics, communication systems, and emerging technologies.
+                    </p>
+                    <p>
+                      With a dedicated team of faculty members, modern laboratories, and strong industry connections, 
+                      the department ensures students gain hands-on experience in areas such as 
+                      <strong> VLSI design, embedded systems, signal processing, wireless communication, 
+                      and quantum technologies</strong>.
+                    </p>
+                    <p>
+                      The department fosters a culture of innovation through <strong>research projects, 
+                      industry collaborations, and centers of excellence</strong>, empowering students to 
+                      become future-ready engineers who can contribute to technological advancements 
+                      in communication and computing.
+                    </p>
                   </div>
                 </section>
               </CardContent>

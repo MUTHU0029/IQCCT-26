@@ -53,10 +53,12 @@
     "react-dom": "^19.1.1",
     "react-hook-form": "latest",
     "react-resizable-panels": "latest",
+    "react-tsparticles": "^2.12.2",
     "recharts": "latest",
     "sonner": "latest",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
+    "tsparticles": "^3.9.1",
     "vaul": "latest",
     "zod": "3.25.67"
   },

@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 
 export default function CountdownTimer() {
-  const targetDate = new Date("2026-03-15T00:00:00")
+  const targetDate = new Date("2026-04-10T00:00:00")
 
   const calculateTimeLeft = () => {
     const now = new Date().getTime()
@@ -42,7 +42,7 @@ export default function CountdownTimer() {
   }
 
   return (
-    <div className="text-center py-16">
+    <div className="text-center py-4">
       <div className="mb-4">
         <h3 className="text-2xl font-bold text-green-700 mb-2">Conference Countdown</h3>
         <p className="text-gray-600">Time remaining until IQCCT'26</p>
@@ -113,7 +113,7 @@ export default function CountdownTimer() {
       {/* Info */}
       <div className="mt-6 space-y-2">
         <div className="text-sm text-gray-500">
-          Conference Date: March 15, 2026
+          Conference Date: April 10-11, 2026
         </div>
       </div>
     </div>
