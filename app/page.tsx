@@ -57,18 +57,18 @@ export default function Home() {
               Accepted papers will be published in SCOPUS Indexed AIP/IEEE/Springer Conference Proceedings.
             </h1>
 
-            <div className="flex justify-center items-center space-x-12 flex-wrap gap-8">
+            <div className="flex justify-center items-center space-x-6 flex-wrap gap-8">
               <div className="flex items-center">
-                <Image src="/scopus-logo.png" alt="Scopus" width={120} height={60} className="object-contain" />
+                <Image src="/scopus-logo.png" alt="Scopus" width={200} height={120} className="object-contain" />
               </div>
               <div className="flex items-center">
-                <Image src="/ieee-logo.png" alt="IEEE" width={120} height={60} className="object-contain" />
+                <Image src="/ieee-logo.png" alt="IEEE" width={200} height={120} className="object-contain" />
               </div>
               <div className="flex items-center">
-                <Image src="/springer-logo.png" alt="Springer" width={120} height={60} className="object-contain" />
+                <Image src="/springer-logo.png" alt="Springer" width={200} height={120} className="object-contain" />
               </div>
               <div className="flex items-center">
-                <Image src="/aip-logo.png" alt="AIP" width={120} height={60} className="object-contain" />
+                <Image src="/aip-logo.png" alt="AIP" width={200} height={120} className="object-contain" />
               </div>
             </div>
           </div>

@@ -24,7 +24,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased">
+      <body className="antialiased ">
         <div className="page-transition">{children}</div>
       </body>
     </html>
