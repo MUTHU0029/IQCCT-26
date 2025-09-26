@@ -17,9 +17,9 @@ const Footer = () => {
                 className="object-contain"
               />
               <div>
-                <h3 className="text-2xl font-bold text-green-400">IQCCT'25</h3>
+                <h3 className="text-2xl font-bold text-green-400">IQCCT'26</h3>
                 <p className="text-sm text-gray-300">
-                  International Conference on Communications and Quantum Technologies
+                 International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies
                 </p>
               </div>
             </div>
