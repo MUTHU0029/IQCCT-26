@@ -76,7 +76,7 @@ export default function RegisterPage() {
               <div className="mb-8">
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
                   Learn How to Register for <strong>IQCCT'26</strong>: A guide to submitting your paper for the premier
-                  International Conference on Communications and Quantum Technologies that brings together researchers,
+                 International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies that brings together researchers,
                   academicians, industry professionals, and students to explore cutting-edge advancements in quantum
                   computing, quantum communication, 5G/6G technologies, and next-generation communication systems.
                 </p>

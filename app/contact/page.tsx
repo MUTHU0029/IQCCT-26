@@ -78,10 +78,10 @@ export default function ContactPage() {
               <span>Get in Touch</span>
             </div>
             <h1 className="text-6xl font-bold bg-gradient-to-r from-green-700 via-green-700 to-green-700 bg-clip-text text-transparent mb-6">
-              Contact IQCCT'25
+              Contact IQCCT'26
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Have questions about the International Conference on Communications and Quantum Technologies? We're here
+              Have questions about the International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies? We're here
               to help you every step of the way.
             </p>
           </div>

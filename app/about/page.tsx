@@ -35,7 +35,7 @@ export default function AboutPage() {
                 {/* About KPR Institution Section */}
                 <section className="mb-24">
                   <h1 className="text-3xl font-bold text-green-700 mb-8 border-l-4 border-green-700 pl-4">
-                    About KPR Institution
+                    About KPR Institution of Engineering and Technology
                   </h1>
 
                   <div className="text-gray-700 leading-relaxed space-y-6">
@@ -89,7 +89,7 @@ export default function AboutPage() {
                 {/* KPR Groups Section */}
                 <section className="mb-24">
                   <h2 className="text-3xl font-bold text-green-700 mb-12 border-l-4 border-green-700 pl-4">
-                    KPR Groups include :
+                    KPR Groups include's
                   </h2>
 
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 items-center">

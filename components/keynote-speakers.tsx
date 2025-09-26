@@ -17,16 +17,16 @@ const KeynoteSpeakers = () => {
     //   topic: "Autonomous Robotics and Human-Machine Interaction",
     // },
     {
-      name: "Dr. Priya Sharma",
-      title: "Power Electronics Expert",
-      organization: "IIT Bombay",
-      image: "/placeholder.svg?height=200&width=200&text=Dr.+Priya+Sharma",
+      name: "Dr. Farman Ali",
+      title: "Faculty of AI and Engineering",
+      organization: "Multimedia University, Malaysia",
+      image: "/iqcctspeaker.jpg",
       topic: "Sustainable Power Electronics for Smart Grids",
     },
   ]
 
   return (
-    <section className="py-2 bg-white">
+    <section className="py-0 bg-white">
       <div className="container-center px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-green-700 mb-4">Keynote Speakers</h2>
@@ -42,7 +42,10 @@ const KeynoteSpeakers = () => {
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
             >
               <div className="relative h-48 bg-gradient-to-br from-[#2d5a80] to-[#3d5a80]">
-                <Image src={speaker.image || "/placeholder.svg"} alt={speaker.name} fill className="object-cover" />
+              <Image src={speaker.image || "/placeholder.svg"} alt={speaker.name} fill className="object-cover" />
+
+
+
               </div>
 
               <div className="p-6">

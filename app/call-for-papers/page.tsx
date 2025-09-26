@@ -24,11 +24,144 @@ export default function CallForPapersPage() {
       date: "March 1, 2026",
       color: "text-green-600",
     },
+     {
+      icon: Calendar,
+      title: "Early Bird Registration",
+      date: "March 20, 2026",
+      color: "text-green-600",
+    },
     {
       icon: Users,
       title: "Conference Date",
       date: "April 10-11, 2026",
       color: "text-green-600",
+    },
+  ]
+
+  // 8 Tracks with Topics
+  const tracks = [
+    {
+      title: "Quantum Computing",
+      image: "/quantum-computing-circuit.png",
+      topics: [
+        "Quantum Computing Architectures & Algorithms",
+        "Quantum Communication Protocols",
+        "Quantum Sensing & Metrology",
+        "Post-Quantum Cryptography",
+        "Quantum Cryptographic Systems",
+        "Privacy and Trust in Quantum Networks",
+        "Quantum Computing Architectures & Algorithms",
+        "Quantum Communication Protocols",
+        "Quantum Sensing & Metrology",
+        "Quantum Internet & Satellite Communication",
+      ],
+    },
+    {
+      title: "Communication Technologies",
+      image: "/5g-wireless-networks.png",
+      topics: [
+        "mmWave and THz Communication",
+        "Massive MIMO and Beamforming",
+        "6G Vision: AI-native, Holographic, and Semantic Layers",
+        "Next-Gen Communication Systems From 5G to 6G and Beyond",
+        "Advances in Wireless and Optical Communication",
+        "Intelligent Protocols for Adaptive Communication",
+        "Quantum-Safe Communication Architectures for the Post-Quantum Era",
+        "Inclusive Communication Technologies for Assistive and Remote Access",
+      ],
+    },
+    {
+      title: "Quantum Computing and VLSI",
+      image: "/qav.jpg",
+      topics: [
+        "Design methodologies for quantum-compatible VLSI circuits",
+        "VLSI implementation of quantum error correction circuits",
+        "Fabrication techniques for quantum-VLSI hybrid chips",
+        "Low-power VLSI design for quantum control electronics",
+        "Timing and synchronization challenges in quantum-VLSI systems",
+        "Fault-tolerant VLSI design for quantum computing applications",
+        "Quantum accelerators embedded in classical VLSI chips",
+        "VLSI design for quantum machine learning processors",
+      ],
+    },
+    {
+      title: "Quantum Computing with AI and ML",
+      image: "/qaai.jpg",
+      topics: [
+        "Quantum machine learning Algorithms and architectures",
+        "Quantum-enhanced neural networks and deep learning",
+        "Quantum data encoding and feature extraction",
+        "Quantum support vector machines and classifiers",
+        "Quantum reinforcement learning for dynamic systems",
+        "Quantum generative models QGANs and beyond",
+        "Quantum optimization for ML hyperparameter tuning",
+        "Simulating quantum systems using ML techniques",
+        "ML-driven error mitigation in quantum processors",
+      ],
+    },
+    {
+      title: "Quantum and IoT",
+      image: "/iot-devices-network.png",
+      topics: [
+        "Quantum-safe cryptography for IoT networks",
+        "Quantum key distribution (QKD) in IoT environments",
+        "Quantum-IoT hybrid system architectures",
+        "Embedding quantum sensors in IoT devices",
+        "Quantum communication protocols for IoT",
+        "Quantum entanglement for ultra-reliable IoT data transfer",
+        "Quantum machine learning for IoT data streams",
+        "Quantum-enhanced anomaly detection in sensor networks",
+        "Quantum-IoT in healthcare monitoring systems",
+        "Quantum IoT for energy grid optimization",
+      ],
+    },
+    {
+      title: "Communication System and VLSI",
+      image: "/cav.jpg",
+      topics: [
+        "VLSI implementation of MIMO systems for 5G and 6G",
+        "VLSI-based error correction coding (ECC) for high-speed data transmission",
+        "ASIC/FPGA design for communication protocols",
+        "VLSI design for real-time DSP in communication",
+        "VLSI-based adaptive filters for noise reduction",
+        "Machine learning integration in VLSI for smart communication",
+        "Neuromorphic VLSI for next-gen communication systems",
+        "VLSI design for mmWave and terahertz communication",
+        "VLSI circuits for IoT and edge communication devices",
+        "Quantum VLSI for secure communication systems",
+      ],
+    },
+    {
+      title: "Communication with AI and ML",
+      image: "/comwithAI.jpg",
+      topics: [
+        "AI-driven optimization in wireless networks",
+        "ML-based adaptive modulation and coding",
+        "Reinforcement learning for dynamic spectrum access",
+        "AI for predictive network traffic management",
+        "Neural networks for channel estimation in MIMO systems",
+        "Federated learning for edge communication devices",
+        "AI-powered network slicing in software-defined networks (SDN)",
+        "AI in satellite and space communication",
+        "AI-powered drone-to-drone communication systems",
+        "Smart vehicular communication using deep learning",
+      ],
+    },
+    {
+      title: "Communication Systems and IoT",
+      image: "/comwithIOT.jpg",
+      topics: [
+        "Low-power wide-area networks (LPWAN) for IoT",
+        "5G and 6G integration with IoT devices",
+        "Secure communication protocols for medical IoT",
+        "Blockchain for decentralized IoT communication",
+        "Edge AI for real-time decision-making in IoT systems",
+        "IoT communication in smart cities: traffic, lighting, and waste management",
+        "Industrial IoT (IIoT): predictive maintenance and automation",
+        "IoT-enabled healthcare communication systems",
+        "Interoperability challenges in multi-protocol IoT systems",
+        "The Future of IoT Communication: Beyond 6G",
+      ],
     },
   ]
 
@@ -46,152 +179,68 @@ export default function CallForPapersPage() {
                   <div className="text-center">
                     <h1 className="text-5xl font-bold text-green-700 mb-8">Call for Papers</h1>
                     <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                      IQCCT'25 - International Conference on Communications and Quantum Technologies
+                      IQCCT'26 -International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies
                     </p>
                   </div>
 
-                  {/* Publication Info */}
-                 
-
                   {/* Research Tracks */}
                   <div className="space-y-12">
-                    <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
-                      <CardContent className="p-8">
-                        <div className="grid lg:grid-cols-2 gap-8 items-center">
-                          <div className="relative h-64 bg-green-600 rounded-lg overflow-hidden">
-                            <Image
-                              src="/5g-wireless-networks.png"
-                              alt="5G Wireless Networks and Communications"
-                              fill
-                              className="object-cover"
-                            />
+                    {tracks.map((track, index) => (
+                      <Card
+                        key={index}
+                        className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700"
+                      >
+                        <CardContent className="p-8">
+                          <div className="grid lg:grid-cols-2 gap-8 items-center">
+                            {index % 2 === 0 ? (
+                              <>
+                                <div className="relative h-64 bg-green-600 rounded-lg overflow-hidden">
+                                  <Image
+                                    src={track.image}
+                                    alt={track.title}
+                                    fill
+                                    className="object-cover"
+                                  />
+                                </div>
+                                <div>
+                                  <h2 className="text-2xl font-bold text-green-700 mb-6">{track.title}</h2>
+                                  <ul className="space-y-3 text-gray-700">
+                                    {track.topics.map((topic, idx) => (
+                                      <li key={idx} className="flex items-start space-x-2">
+                                        <span className="text-green-600 font-bold">•</span>
+                                        <span>{topic}</span>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              </>
+                            ) : (
+                              <>
+                                <div>
+                                  <h2 className="text-2xl font-bold text-green-700 mb-6">{track.title}</h2>
+                                  <ul className="space-y-3 text-gray-700">
+                                    {track.topics.map((topic, idx) => (
+                                      <li key={idx} className="flex items-start space-x-2">
+                                        <span className="text-green-600 font-bold">•</span>
+                                        <span>{topic}</span>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                                <div className="relative h-64 bg-green-600 rounded-lg overflow-hidden">
+                                  <Image
+                                    src={track.image}
+                                    alt={track.title}
+                                    fill
+                                    className="object-cover"
+                                  />
+                                </div>
+                              </>
+                            )}
                           </div>
-                          <div>
-                            <h2 className="text-2xl font-bold text-green-700 mb-6">
-                              Track 1: Advanced Communications Technologies
-                            </h2>
-                            <ul className="space-y-3 text-gray-700">
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>5G/6G Wireless Communication Systems</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Massive MIMO and Beamforming Technologies</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Software-Defined Networking (SDN) and NFV</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Optical Communication and Photonics</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Satellite Communication and Space Networks</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>IoT and Machine-to-Machine Communications</span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
-
-                    <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
-                      <CardContent className="p-8">
-                        <div className="grid lg:grid-cols-2 gap-8 items-center">
-                          <div className="order-2 lg:order-1">
-                            <h2 className="text-2xl font-bold text-green-700 mb-6">
-                              Track 2: Quantum Technologies & Computing
-                            </h2>
-                            <ul className="space-y-3 text-gray-700">
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Quantum Communication and Cryptography</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Quantum Computing Algorithms and Applications</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Quantum Key Distribution (QKD) Systems</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Quantum Error Correction and Fault Tolerance</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Quantum Machine Learning and AI</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Quantum Sensors and Metrology</span>
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="relative h-64 bg-purple-600 rounded-lg overflow-hidden order-1 lg:order-2">
-                            <Image
-                              src="/quantum-computing-circuit.png"
-                              alt="Quantum Computing Circuit"
-                              fill
-                              className="object-cover"
-                            />
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
-
-                    <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
-                      <CardContent className="p-8">
-                        <div className="grid lg:grid-cols-2 gap-8 items-center">
-                          <div className="relative h-64 bg-green-600 rounded-lg overflow-hidden">
-                            <Image
-                              src="/iot-devices-network.png"
-                              alt="IoT Devices Network and Hybrid Systems"
-                              fill
-                              className="object-cover"
-                            />
-                          </div>
-                          <div>
-                            <h2 className="text-2xl font-bold text-green-700 mb-6">
-                              Track 3: Hybrid Communication-Quantum Systems
-                            </h2>
-                            <ul className="space-y-3 text-gray-700">
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Quantum-Enhanced Communication Networks</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Post-Quantum Cryptography for 5G/6G</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Quantum Internet and Distributed Computing</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Security in Quantum Communication Systems</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Quantum-Classical Interface Technologies</span>
-                              </li>
-                              <li className="flex items-start space-x-2">
-                                <span className="text-green-600 font-bold">•</span>
-                                <span>Network Protocols for Quantum Communications</span>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
+                        </CardContent>
+                      </Card>
+                    ))}
                   </div>
 
                   {/* Important Dates and Additional Info */}
@@ -270,20 +319,23 @@ export default function CallForPapersPage() {
           </div>
         </div>
       </div>
-       <div className="text-center">
-                    <Card className="max-w-4xl mx-auto bg-gradient-to-r from-green-50 to-green-100 border-2 border-green-200">
-                      <CardContent className="p-8">
-                        <h2 className="text-2xl font-bold text-green-700 mb-4">Publication Opportunity</h2>
-                        <p className="text-lg font-semibold text-gray-900 mb-4">
-                          Accepted papers will be published in SCOPUS Indexed AIP/IEEE/Springer Conference Proceedings.
-                        </p>
-                        <p className="text-gray-700 leading-relaxed">
-                          Authors are invited to submit high-quality research papers on Communications and Quantum
-                          Technologies, including but not limited to the following tracks:
-                        </p>
-                      </CardContent>
-                    </Card>
-                  </div>
+
+      {/* Publication Opportunity */}
+      <div className="text-center">
+        <Card className="max-w-4xl mx-auto bg-gradient-to-r from-green-50 to-green-100 border-2 border-green-200">
+          <CardContent className="p-8">
+            <h2 className="text-2xl font-bold text-green-700 mb-4">Publication Opportunity</h2>
+            <p className="text-lg font-semibold text-gray-900 mb-4">
+              Accepted papers will be published in SCOPUS Indexed AIP/IEEE/Springer Conference Proceedings.
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              Authors are invited to submit high-quality research papers on Communications and Quantum
+              Technologies, including but not limited to the above tracks.
+            </p>
+          </CardContent>
+        </Card>
+      </div>
+
       <Footer />
     </div>
   )

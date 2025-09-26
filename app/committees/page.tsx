@@ -89,8 +89,7 @@ export default function CommitteesPage() {
                 <div className="text-center mb-16">
                   <h1 className="text-5xl font-bold text-green-700 mb-6">Committees</h1>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                    Meet the distinguished committee members organizing IQCCT'25 - International Conference on
-                    Communications and Quantum Technologies
+                    Meet the distinguished committee members organizing IQCCT'26 - International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies
                   </p>
                 </div>
 

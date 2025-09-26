@@ -25,30 +25,20 @@ export default function Home() {
                   About IQCCT'26
                 </h2>
 
-                <div className="space-y-6 text-gray-700 leading-relaxed">
-                  <p>
-                    International Conference on Recent Advances in Interdisciplinary
-Quantum Computing and Communication Technologies(IQCCT'26) is a prestigious
-                    event organized by KPR Institute of Engineering and Technology (KPRIET). This conference serves as a
-                    dynamic platform for researchers, academicians, industry professionals, and students to showcase
-                    their latest findings and advancements in communications, quantum computing, quantum cryptography,
-                    and emerging quantum technologies.
-                  </p>
+               <div className="space-y-6 text-gray-700 leading-relaxed">
+  <p>
+    The <b>International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies (IQCCT'26)</b> is a distinguished event hosted by <b>KPR Institute of Engineering and Technology (KPRIET)</b>. This conference provides a vibrant forum for <b>researchers</b>, <b>scholars</b>, <b>industry experts</b>, and <b>students</b> to present their <b>innovative work</b> and <b>breakthroughs</b> in the fields of <b>communication</b>, <b>quantum computing</b>, <b>quantum cryptography</b>, and <b>next-generation quantum technologies</b>.
+  </p>
 
-                  <p>
-                    With the rapid evolution of quantum technologies and advanced communication systems, fields such as
-                    quantum computing, quantum communication, 5G/6G networks, IoT communications, and quantum
-                    cryptography are driving innovation across industries. IQCCT'26 aims to facilitate insightful
-                    discussions, knowledge sharing, and collaboration through keynote addresses, technical sessions, and
-                    interactive workshops led by experts in quantum technologies and communications.
-                  </p>
+  <p>
+    With the swift advancement of <b>quantum technologies</b> and <b>next-generation communication systems</b>, areas such as <b>quantum computing</b>, <b>quantum communication</b>, <b>5G/6G networks</b>, <b>IoT-based communications</b>, and <b>quantum cryptography</b> are shaping <b>innovation</b> across diverse industries. <b>IQCCT'26</b> is designed to foster <b>meaningful dialogue</b>, <b>knowledge exchange</b>, and <b>collaborative opportunities</b> through <b>keynote talks</b>, <b>technical sessions</b>, and <b>interactive workshops</b> conducted by leading <b>experts</b> in <b>quantum technologies</b> and <b>communication domains</b>.
+  </p>
 
-                  <p>
-                    We warmly welcome all researchers, scholars, and technology enthusiasts to be a part of IQCCT'26 at
-                    KPRIET. Join us as we explore groundbreaking ideas in quantum technologies, advance communication
-                    systems, and shape the future of quantum-enabled technologies.
-                  </p>
-                </div>
+  <p>
+    We cordially invite <b>researchers</b>, <b>academicians</b>, and <b>technology enthusiasts</b> to participate in <b>IQCCT'26</b> at <b>KPRIET</b>. Together, let us delve into <b>pioneering ideas</b> in <b>quantum technologies</b>, advance <b>next-generation communication systems</b>, and contribute to shaping the <b>future of quantum-driven innovations</b>.
+  </p>
+</div>
+
               </div>
 
               {/* Important Dates Sidebar */}
@@ -89,7 +79,7 @@ Quantum Computing and Communication Technologies(IQCCT'26) is a prestigious
       <KeynoteSpeakers />
 
       {/* Countdown Timer Section */}
-      <section className="py-16 bg-white">
+      <section className="py-2 bg-white">
         <div className="container mx-auto px-6">
           <CountdownTimer/>
         </div>

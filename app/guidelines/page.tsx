@@ -98,8 +98,7 @@ export default function GuidelinesPage() {
                 <div className="text-center mb-16">
                   <h1 className="text-5xl font-bold  text-green-700 mb-8 ">Guidelines</h1>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                    Important guidelines for authors and participants of IQCCT'25 - International Conference on
-                    Communications and Quantum Technologies to ensure a successful conference experience
+                    Important guidelines for authors and participants of IQCCT'26 - International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies to ensure a successful conference experience
                   </p>
                 </div>
 
@@ -145,7 +144,7 @@ export default function GuidelinesPage() {
                             <h2 className="text-3xl font-bold text-green-700">Download Templates</h2>
                           </div>
                           <p className="text-gray-600 text-lg mb-6">
-                            Get the official IQCCT'25 templates and guidelines documents to ensure your submission meets
+                            Get the official IQCCT'26 templates and guidelines documents to ensure your submission meets
                             all requirements for communications and quantum technology papers
                           </p>
                         </div>
