@@ -59,16 +59,16 @@ export default function Home() {
 
             <div className="flex justify-center items-center space-x-6 flex-wrap gap-8">
               <div className="flex items-center">
-                <Image src="/scopus-logo.png" alt="Scopus" width={200} height={120} className="object-contain" />
+                <Image src="/Scopus_logo-MoAY4mVa.svg" alt="Scopus" width={200} height={120} className="object-contain" />
               </div>
               <div className="flex items-center">
-                <Image src="/ieee-logo.png" alt="IEEE" width={200} height={120} className="object-contain" />
+                <Image src="/ieesb-sUBJznvs.png" alt="IEEE" width={200} height={120} className="object-contain" />
               </div>
               <div className="flex items-center">
-                <Image src="/springer-logo.png" alt="Springer" width={200} height={120} className="object-contain" />
+                <Image src="/springer.jpg" alt="Springer" width={200} height={120} className="object-contain" />
               </div>
               <div className="flex items-center">
-                <Image src="/aip-logo.png" alt="AIP" width={200} height={120} className="object-contain" />
+                <Image src="/download.jpg" alt="AIP" width={200} height={120} className="object-contain" />
               </div>
             </div>
           </div>

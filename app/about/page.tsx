@@ -5,23 +5,23 @@ import Image from "next/image"
 
 export default function AboutPage() {
   const kprGroups = [
-    { name: "KPR Quantum knits", logo: "/kpr-quantum-logo.png" },
-    { name: "KPR Group of Company", logo: "/kpr-group-logo.png" },
-    { name: "KPRCAS Institutions", logo: "/kprcas-logo.png" },
+    { name: "KPR Quantum knits", logo: "/quantum-XdBOGqpH.png" },
+    { name: "KPR Group of Company", logo: "/kpr_group-DdaCAbSV.png" },
+    { name: "KPRCAS Institutions", logo: "/kprcas-uWpuEiSi.png" },
     {
       name: "Audi Showroom",
-      logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/audi-0A7K1zthmpXpDviU3uzS0KTJiILjIr.png",
+      logo: "/audi-7kdWA23-.png",
     },
     {
       name: "KPRIAS Academy",
-      logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kpr%20ias.jpg-9nYOt8B55kGCz6LZYxcEuTIEACZ7Cg.jpeg",
+      logo: "/kpr_ias-DzjCSCuG.png",
     },
     {
       name: "KPRIET Institutions",
-      logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kpriet%20logo-2ZbJN1Sf9qibemRScHdX9K44LKLG2u.webp",
+      logo: "/kpriet-C-oXDijr.png",
     },
-    { name: "KPR Sugar Mill Limited", logo: "/sugar-mill-logo.png" },
-    { name: "KPR Faso Mens wear", logo: "/faso-logo.png" },
+    { name: "KPR Sugar Mill Limited", logo: "/sugar_mill-BScuU2S5.png" },
+    { name: "KPR Faso Mens wear", logo: "/faso-rPurKuiL.png" },
   ]
 
   return (
