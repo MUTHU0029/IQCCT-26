@@ -75,12 +75,19 @@ Quantum Computing and Communication Technologies
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button className="bg-yellow-400 text-green-800 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105">
+              {/* <button className="bg-yellow-400 text-green-800 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105">
                 Submit Your Paper
-              </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-green-800 transition-all duration-300">
-                Register Now
-              </button>
+              </button> */}
+              <a
+  href="https://forms.gle/7yVFpyZst52WZGNr9" // 🔗 your link here
+  target="_blank"                        // opens in new tab
+  rel="noopener noreferrer"
+>
+ <button className="bg-yellow-400 text-green-800 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105">
+    Register Now
+  </button>
+</a>
+
             </div>
           </div>
 

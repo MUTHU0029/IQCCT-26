@@ -32,13 +32,38 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto">
             <Card className="shadow-lg border border-gray-200 rounded-lg">
               <CardContent className="p-12">
+                
+                {/* About AICTE Section */}
+                <section className="mb-24">
+                  <h1 className="text-3xl font-bold text-green-700 mb-8 border-l-4 border-green-700 pl-4">
+                    About AICTE
+                  </h1>
+                  <div className="text-gray-700 leading-relaxed space-y-6 text-justify">
+                    <p>
+                      The <strong>All India Council for Technical Education (AICTE)</strong> is the statutory body 
+                      and a national-level council for technical education under the <strong>Department of Higher Education</strong>, 
+                      Ministry of Education, Government of India. Established in <strong>1945</strong>, AICTE is responsible 
+                      for the proper planning, formulation, and maintenance of norms and standards in technical education 
+                      across the country.
+                    </p>
+                    <p>
+                      AICTE plays a crucial role in promoting innovation, research, and quality improvement in 
+                      engineering and management institutions. It provides financial support for research projects, 
+                      faculty development programs, conferences, and student-centric initiatives aimed at enhancing 
+                      the employability and technical skills of graduates. Through its various schemes and sponsorships, 
+                      AICTE encourages academic excellence and fosters collaborations between academia, industry, 
+                      and research organizations.
+                    </p>
+                  </div>
+                </section>
+
                 {/* About KPR Institution Section */}
                 <section className="mb-24">
                   <h1 className="text-3xl font-bold text-green-700 mb-8 border-l-4 border-green-700 pl-4">
                     About KPR Institution of Engineering and Technology
                   </h1>
 
-                  <div className="text-gray-700 leading-relaxed space-y-6">
+                  <div className="text-gray-700 leading-relaxed space-y-6 text-justify">
                     <p>
                       <strong>KPRIET</strong> – KPR Institute of Engineering and Technology was established in the year{" "}
                       <strong>2009</strong>. KPRIET is a{" "}
@@ -115,7 +140,7 @@ export default function AboutPage() {
                     About ECE
                   </h1>
 
-                  <div className="text-gray-700 leading-relaxed space-y-6">
+                  <div className="text-gray-700 leading-relaxed space-y-6 text-justify">
                     <p>
                       The Department of <strong>Electronics and Communication Engineering (ECE)</strong> at KPRIET 
                       is committed to providing cutting-edge education and research opportunities in the field of 

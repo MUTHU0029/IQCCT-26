@@ -46,9 +46,15 @@ const ImportantDates = () => {
       </div>
 
       <div className="mt-6 pt-4 border-t border-gray-200">
-        <button className="w-full bg-green-700 text-white py-2 px-4 rounded-lg font-medium text-sm  hover:bg-yellow-300 transition-colors">
-          Submit Your Paper
-        </button>
+        <a
+          href="https://forms.gle/7yVFpyZst52WZGNr9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="w-full bg-green-700 text-white py-2 px-4 rounded-lg font-medium text-sm  hover:bg-yellow-300 transition-colors">
+            Register Now
+          </button>
+        </a>
       </div>
     </div>
   )

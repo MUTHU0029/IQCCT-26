@@ -114,14 +114,18 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
 
 
                 <div className="flex-1 text-center px-4 md:px-8">
-                  <h1 className="text-[13px] md:text-lg text-[#2d3748] leading-relaxed font-normal">
-                    International Conference on Recent Advances in Interdisciplinary
-                    <br />
-                    Quantum Computing and Communication&nbsp;Technologies
-                    <br />
-                    <span className="font-bold text-green-700">(IQCCT'26)</span>
-                  </h1>
-                </div>
+  <h2 className="text-[14px] md:text-xl font-semibold text-green-700 mb-1">
+    AICTE SPONSORED
+  </h2>
+  <h1 className="text-[13px] md:text-lg text-[#2d3748] leading-relaxed font-normal">
+    International Conference on Recent Advances in Interdisciplinary
+    <br />
+    Quantum Computing and Communication&nbsp;Technologies
+    <br />
+    <span className="font-bold text-green-700">(IQCCT'26)</span>
+  </h1>
+</div>
+
 
                 <div className="flex items-center space-x-4">
                   <div className="text-right hidden sm:block">
@@ -178,7 +182,7 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
               {/* Submit Paper (desktop) */}
               <div className="hidden lg:block">
                 <button className="bg-white text-green-700 px-6 py-2 rounded-full font-medium text-sm hover:bg-gray-50 transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
-                  Submit Paper
+                  Register Now
                 </button>
               </div>
 
@@ -212,9 +216,15 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
                 ))}
 
                 <div className="pt-4 pb-2">
-                  <button className="w-full bg-white text-green-700 px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105">
-                    Submit Paper
-                  </button>
+                  <a
+  href="https://forms.gle/7yVFpyZst52WZGNr9" // 🔗 your link here
+  target="_blank"                        // opens in new tab
+  rel="noopener noreferrer"
+>
+  <button className="w-full bg-white text-green-700 px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105">
+    Register Now
+  </button>
+</a>
                 </div>
               </div>
             </div>

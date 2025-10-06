@@ -24,20 +24,20 @@ export default function Home() {
                 <h2 className="text-3xl font-bold text-green-700 mb-6 border-l-4 border-green-700 pl-4">
                   About IQCCT'26
                 </h2>
-
-               <div className="space-y-6 text-gray-700 leading-relaxed">
+<div className="space-y-6 text-gray-700 leading-relaxed text-justify">
   <p>
-    The <b>International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies (IQCCT'26)</b> is a distinguished event hosted by <b>KPR Institute of Engineering and Technology (KPRIET)</b>. This conference provides a vibrant forum for <b>researchers</b>, <b>scholars</b>, <b>industry experts</b>, and <b>students</b> to present their <b>innovative work</b> and <b>breakthroughs</b> in the fields of <b>communication</b>, <b>quantum computing</b>, <b>quantum cryptography</b>, and <b>next-generation quantum technologies</b>.
+    The International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies (IQCCT'26) is a distinguished event hosted by KPR Institute of Engineering and Technology (KPRIET). This conference provides a vibrant forum for researchers, scholars, industry experts, and students to present their innovative work and breakthroughs in the fields of communication, quantum computing, quantum cryptography, and next-generation quantum technologies.
   </p>
 
   <p>
-    With the swift advancement of <b>quantum technologies</b> and <b>next-generation communication systems</b>, areas such as <b>quantum computing</b>, <b>quantum communication</b>, <b>5G/6G networks</b>, <b>IoT-based communications</b>, and <b>quantum cryptography</b> are shaping <b>innovation</b> across diverse industries. <b>IQCCT'26</b> is designed to foster <b>meaningful dialogue</b>, <b>knowledge exchange</b>, and <b>collaborative opportunities</b> through <b>keynote talks</b>, <b>technical sessions</b>, and <b>interactive workshops</b> conducted by leading <b>experts</b> in <b>quantum technologies</b> and <b>communication domains</b>.
+    With the swift advancement of quantum technologies and next-generation communication systems, areas such as quantum computing, quantum communication, 5G/6G networks, IoT-based communications, and quantum cryptography are shaping innovation across diverse industries. IQCCT'26 is designed to foster meaningful dialogue, knowledge exchange, and collaborative opportunities through keynote talks, technical sessions, and interactive workshops conducted by leading experts in quantum technologies and communication domains.
   </p>
 
   <p>
-    We cordially invite <b>researchers</b>, <b>academicians</b>, and <b>technology enthusiasts</b> to participate in <b>IQCCT'26</b> at <b>KPRIET</b>. Together, let us delve into <b>pioneering ideas</b> in <b>quantum technologies</b>, advance <b>next-generation communication systems</b>, and contribute to shaping the <b>future of quantum-driven innovations</b>.
+    We cordially invite researchers, academicians, and technology enthusiasts to participate in IQCCT'26 at KPRIET. Together, let us delve into pioneering ideas in quantum technologies, advance next-generation communication systems, and contribute to shaping the future of quantum-driven innovations.
   </p>
 </div>
+
 
               </div>
 
@@ -93,12 +93,15 @@ export default function Home() {
 Quantum Computing and Communication Technologies(IQCCT'26)
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-green-700 px-8 py-3 rounded-full font-medium hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
-              Submit Paper
-            </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white hover:text-green-700 transition-all duration-300 transform hover:scale-105">
-              Register Now
-            </button>
+            <a
+              href="https://forms.gle/7yVFpyZst52WZGNr9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="border-2 border-white text-white px-8 py-3 rounded-full font-medium hover:bg-white hover:text-green-700 transition-all duration-300 transform hover:scale-105">
+                Register Now
+              </button>
+            </a>
           </div>
         </div>
       </section>
