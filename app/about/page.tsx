@@ -60,7 +60,7 @@ export default function AboutPage() {
                 {/* About KPR Institution Section */}
                 <section className="mb-24">
                   <h1 className="text-3xl font-bold text-green-700 mb-8 border-l-4 border-green-700 pl-4">
-                    About KPR Institution of Engineering and Technology
+                    About KPR Institute of Engineering and Technology
                   </h1>
 
                   <div className="text-gray-700 leading-relaxed space-y-6 text-justify">

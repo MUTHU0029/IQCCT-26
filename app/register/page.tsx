@@ -14,50 +14,50 @@ export default function RegisterPage() {
   const registrationData = [
     {
       category: "Student Members",
-      earlyBird: "1,500 INR",
-      late: "2,000 INR",
+      earlyBird: "9,500 INR",
+      late: "10,000 INR",
       isbn: "500 INR",
     },
     {
       category: "Academician / Professional Members",
-      earlyBird: "1,500 INR",
-      late: "2,000 INR",
+      earlyBird: "9,500 INR",
+      late: "10,000 INR",
       isbn: "500 INR",
     },
     {
       category: "Research Scholars",
-      earlyBird: "1,500 INR",
-      late: "2,000 INR",
+      earlyBird: "9,500 INR",
+      late: "10,000 INR",
       isbn: "500 INR",
     },
     {
       category: "Industry Members",
-      earlyBird: "5,000 INR",
-      late: "20,000 INR",
+      earlyBird: "9,500 INR",
+      late: "10,000 INR",
       isbn: "500 INR",
     },
     {
       category: "Foreign Student Members",
-      earlyBird: "$200 USD",
-      late: "$250 USD",
+      earlyBird: "9,500 INR",
+      late: "10,000 INR",
       isbn: "500 INR",
     },
     {
       category: "Foreign Academician / Professional Members",
-      earlyBird: "$200 USD",
-      late: "$250 USD",
+      earlyBird: "9,500 INR",
+      late: "10,000 INR",
       isbn: "500 INR",
     },
     {
       category: "Foreign Research Scholars",
-      earlyBird: "$200 USD",
-      late: "$250 USD",
+      earlyBird: "9,500 INR",
+      late: "10,000 INR",
       isbn: "500 INR",
     },
     {
       category: "Foreign Industry Members",
-      earlyBird: "$250 USD",
-      late: "$300 USD",
+      earlyBird: "9,500 INR",
+      late: "10,000 INR",
       isbn: "500 INR",
     },
   ]
@@ -74,19 +74,22 @@ export default function RegisterPage() {
               <h1 className="text-4xl font-bold mb-6 text-green-700">Registration</h1>
 
               <div className="mb-8">
-                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                <p className="text-lg text-gray-700 leading-relaxed text-justify mb-6">
                   Learn How to Register for <strong>IQCCT'26</strong>: A guide to submitting your paper for the premier
                  International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies that brings together researchers,
                   academicians, industry professionals, and students to explore cutting-edge advancements in quantum
                   computing, quantum communication, 5G/6G technologies, and next-generation communication systems.
                 </p>
+              <a
+  href="https://forms.gle/7yVFpyZst52WZGNr9"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="bg-green-700 text-white px-8 py-3 text-lg font-medium rounded-md hover:bg-green-800 transition-all duration-300">
+    Register Now
+  </button>
+</a>
 
-                <Button
-                  onClick={handleRegisterClick}
-                  className="bg-green-700  text-white px-8 py-3 text-lg font-medium rounded-md"
-                >
-                  Register Now
-                </Button>
               </div>
             </div>
 
@@ -111,9 +114,9 @@ export default function RegisterPage() {
                           <th className="border border-gray-300 px-6 py-4 text-left font-semibold text-gray-900">
                             Late Registration
                           </th>
-                          <th className="border border-gray-300 px-6 py-4 text-left font-semibold text-gray-900">
+                          {/* <th className="border border-gray-300 px-6 py-4 text-left font-semibold text-gray-900">
                             ISBN Proceedings
-                          </th>
+                          </th> */}
                         </tr>
                       </thead>
                       <tbody>
@@ -124,7 +127,7 @@ export default function RegisterPage() {
                             </td>
                             <td className="border border-gray-300 px-6 py-4 text-gray-700">{row.earlyBird}</td>
                             <td className="border border-gray-300 px-6 py-4 text-gray-700">{row.late}</td>
-                            <td className="border border-gray-300 px-6 py-4 text-gray-700">{row.isbn}</td>
+                            {/* <td className="border border-gray-300 px-6 py-4 text-gray-700">{row.isbn}</td> */}
                           </tr>
                         ))}
                       </tbody>
@@ -144,15 +147,15 @@ export default function RegisterPage() {
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex justify-between">
                       <span>Early Bird Registration:</span>
-                      <span className="font-medium">June 30, 2025</span>
+                      <span className="font-medium">March 20, 2026</span>
                     </li>
                     <li className="flex justify-between">
                       <span>Late Registration:</span>
-                      <span className="font-medium">July 15, 2025</span>
+                      <span className="font-medium">April 1, 2026</span>
                     </li>
                     <li className="flex justify-between">
                       <span>Conference Date:</span>
-                      <span className="font-medium">July 18, 2025</span>
+                      <span className="font-medium">April 10-11, 2026</span>
                     </li>
                   </ul>
                 </CardContent>

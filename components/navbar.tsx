@@ -181,9 +181,15 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
 
               {/* Submit Paper (desktop) */}
               <div className="hidden lg:block">
-                <button className="bg-white text-green-700 px-6 py-2 rounded-full font-medium text-sm hover:bg-gray-50 transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
-                  Register Now
-                </button>
+                <a
+  href="https://forms.gle/7yVFpyZst52WZGNr9" // 🔗 your link here
+  target="_blank"                        // opens in new tab
+  rel="noopener noreferrer"
+>
+  <button className="bg-white text-green-700 px-6 py-2 rounded-full font-medium text-sm hover:bg-gray-50 transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
+    Register Now
+  </button>
+</a>
               </div>
 
               {/* Mobile menu button */}

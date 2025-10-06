@@ -115,7 +115,7 @@ const Footer = () => {
               </p>
               <p className="flex items-center space-x-2">
                 <span>📅</span>
-                <span>July 18-19, 2025</span>
+                <span>April 10-11, 2026</span>
               </p>
             </div>
 
@@ -134,7 +134,7 @@ const Footer = () => {
         <div className="border-t border-gray-600 mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2025 IQCCT'25 - KPR Institute of Engineering and Technology. All rights reserved.
+              © 2026 IQCCT'26 - KPR Institute of Engineering and Technology. All rights reserved.
             </p>
           </div>
         </div>

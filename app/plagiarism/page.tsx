@@ -18,7 +18,7 @@ export default function PlagiarismPage() {
                     Plagiarism Policy
                   </h1>
 
-                  <div className="space-y-6 text-gray-700 leading-relaxed">
+                  <div className="space-y-6 text-gray-700 leading-relaxed text-justify">
                     <p>
                       Plagiarism is copying someone else's previous ideas, processes, results, or words without giving
                       credit to the original author and source. It is a serious academic misconduct that undermines the
