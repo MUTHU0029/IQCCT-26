@@ -103,11 +103,11 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-gray-300">
               <p className="flex items-center space-x-2">
                 <span>📧</span>
-                <span>iqcct2025@kpriet.ac.in</span>
+                <span>muralidharan.j@kpriet.ac.in</span>
               </p>
               <p className="flex items-center space-x-2">
                 <span>📞</span>
-                <span>+91 422 2669000</span>
+                <span>+91 9944032043</span>
               </p>
               <p className="flex items-center space-x-2">
                 <span>🌐</span>

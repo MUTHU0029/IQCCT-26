@@ -42,8 +42,8 @@ export default function ContactPage() {
       icon: Phone,
       title: "Call Us",
       details: [
-        "Main Office: +91 422 2669000",
-        "Conference Desk: +91 422 2669001",
+        "Main Office: +91 9944032043",
+        "Conference Desk: +91 9944032043",
         "Available: Mon-Fri, 9 AM - 6 PM",
       ],
       color: "text-green-700",
@@ -55,8 +55,8 @@ export default function ContactPage() {
       title: "Email Us",
       details: [
         "General: info@kpriet.ac.in",
-        "Conference: iqcct2025@kpriet.ac.in",
-        "Registration: registration@kpriet.ac.in",
+        "Conference: muralidharan.j@kpriet.ac.in",
+        // "Registration: registration@kpriet.ac.in",
       ],
       color: "text-green-700",
       bgColor: "bg-green-50",
@@ -232,7 +232,7 @@ export default function ContactPage() {
         <h3 className="text-2xl font-bold mb-1">Visit Our Campus</h3>
         <p className="text-lg font-medium">KPRIET, Coimbatore</p>
         <a
-  href="https://www.google.com/maps/place/KPRIET,+Coimbatore"
+  href="https://www.google.com/maps?q=11.077184404774087,77.14180955122056"
   target="_blank"
   rel="noopener noreferrer"
 >
