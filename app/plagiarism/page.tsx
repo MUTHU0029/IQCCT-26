@@ -33,7 +33,7 @@ export default function PlagiarismPage() {
                       alert the same to the author(s) and will ask them to rewrite the content or to cite the references
                       from where the content has been taken. If more than 10% of the paper is plagiarized- the article
                       will be rejected and the same is notified to the author. The Turnitin software is used to check
-                      the plagiarism percentage of both web and AI content for IQCCT'25.
+                      the plagiarism percentage of both web and AI content for IQCCT'26.
                     </p>
 
                     <p>
@@ -48,7 +48,7 @@ export default function PlagiarismPage() {
                 {/* Plagiarism Guidelines Section */}
                 <section>
                   <h2 className="text-3xl font-bold text-green-700 mb-8 border-l-4 border-green-700 pl-4">
-                    Plagiarism Guidelines for IQCCT'25
+                    Plagiarism Guidelines for IQCCT'26
                   </h2>
 
                   <div className="mb-6">

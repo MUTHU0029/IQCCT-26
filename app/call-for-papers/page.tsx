@@ -24,9 +24,9 @@ export default function CallForPapersPage() {
       date: "March 1, 2026",
       color: "text-green-600",
     },
-     {
+    {
       icon: Calendar,
-      title: "Early Bird Registration",
+      title: "Registration",
       date: "March 20, 2026",
       color: "text-green-600",
     },
@@ -244,11 +244,11 @@ export default function CallForPapersPage() {
                   </div>
 
                   {/* Important Dates and Additional Info */}
-                  <div className="grid lg:grid-cols-2 gap-12">
+                  <div className="flex justify-center">
                     {/* Important Dates */}
-                    <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
+                    <Card className="w-full max-w-xl hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
                       <CardContent className="p-8">
-                        <h3 className="text-2xl font-bold text-green-700 mb-8 flex items-center space-x-3">
+                        <h3 className="text-2xl font-bold text-green-700 mb-8 flex items-center justify-center space-x-3">
                           <Calendar className="w-6 h-6" />
                           <span>Important Dates</span>
                         </h3>
@@ -267,52 +267,52 @@ export default function CallForPapersPage() {
                         </div>
                       </CardContent>
                     </Card>
-
-                    {/* Additional Information */}
-                    <div className="space-y-8">
-                      {/* Follow Us */}
-                      <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
-                        <CardContent className="p-8">
-                          <h3 className="text-2xl font-bold text-green-700 mb-6">Follow IQCCT'25</h3>
-                          <div className="space-y-4">
-                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                              <Linkedin className="w-6 h-6 text-blue-600" />
-                              <span className="font-medium">LinkedIn Updates</span>
-                            </div>
-                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                              <Instagram className="w-6 h-6 text-pink-600" />
-                              <span className="font-medium">Instagram</span>
-                            </div>
-                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                              <Globe className="w-6 h-6 text-green-600" />
-                              <span className="font-medium">Conference Website</span>
-                            </div>
-                          </div>
-                        </CardContent>
-                      </Card>
-
-                      {/* More Details */}
-                      <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
-                        <CardContent className="p-8">
-                          <h3 className="text-2xl font-bold text-green-700 mb-6">Resources</h3>
-                          <div className="space-y-4">
-                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                              <span className="text-2xl">📄</span>
-                              <span className="font-medium">Conference Brochure</span>
-                            </div>
-                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                              <span className="text-2xl">📋</span>
-                              <span className="font-medium">Submission Guidelines</span>
-                            </div>
-                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                              <span className="text-2xl">📝</span>
-                              <span className="font-medium">Paper Template</span>
-                            </div>
-                          </div>
-                        </CardContent>
-                      </Card>
-                    </div>
                   </div>
+
+                  {/* Additional Info */}
+                  {/* <div className="space-y-8"> */}
+                    {/* Follow Us */}
+                    {/* <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
+                      <CardContent className="p-8">
+                        <h3 className="text-2xl font-bold text-green-700 mb-6">Follow IQCCT'26</h3>
+                        <div className="space-y-4">
+                          <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                            <Linkedin className="w-6 h-6 text-blue-600" />
+                            <span className="font-medium">LinkedIn Updates</span>
+                          </div>
+                          <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                            <Instagram className="w-6 h-6 text-pink-600" />
+                            <span className="font-medium">Instagram</span>
+                          </div>
+                          <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                            <Globe className="w-6 h-6 text-green-600" />
+                            <span className="font-medium">Conference Website</span>
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card> */}
+
+                    {/* More Details */}
+                    {/* <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
+                      <CardContent className="p-8">
+                        <h3 className="text-2xl font-bold text-green-700 mb-6">Resources</h3>
+                        <div className="space-y-4">
+                          <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                            <span className="text-2xl">📄</span>
+                            <span className="font-medium">Conference Brochure</span>
+                          </div>
+                          <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                            <span className="text-2xl">📋</span>
+                            <span className="font-medium">Submission Guidelines</span>
+                          </div>
+                          <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                            <span className="text-2xl">📝</span>
+                            <span className="font-medium">Paper Template</span>
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card> */}
+                  {/* </div> */}
                 </div>
               </CardContent>
             </Card>

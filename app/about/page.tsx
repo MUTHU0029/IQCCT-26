@@ -7,7 +7,7 @@ export default function AboutPage() {
   const kprGroups = [
     { name: "KPR Quantum knits", logo: "/quantum-XdBOGqpH.png" },
     { name: "KPR Group of Company", logo: "/kpr_group-DdaCAbSV.png" },
-    { name: "KPRCAS Institutions", logo: "/kprcas-uWpuEiSi.png" },
+    { name: "KPRCAS", logo: "/kprcas-uWpuEiSi.png" },
     {
       name: "Audi Showroom",
       logo: "/audi-7kdWA23-.png",
@@ -17,7 +17,7 @@ export default function AboutPage() {
       logo: "/kpr_ias-DzjCSCuG.png",
     },
     {
-      name: "KPRIET Institutions",
+      name: "KPRIET",
       logo: "/kpriet-C-oXDijr.png",
     },
     { name: "KPR Sugar Mill Limited", logo: "/sugar_mill-BScuU2S5.png" },
@@ -40,9 +40,9 @@ export default function AboutPage() {
                   </h1>
                   <div className="text-gray-700 leading-relaxed space-y-6 text-justify">
                     <p>
-                      The <strong>All India Council for Technical Education (AICTE)</strong> is the statutory body 
-                      and a national-level council for technical education under the <strong>Department of Higher Education</strong>, 
-                      Ministry of Education, Government of India. Established in <strong>1945</strong>, AICTE is responsible 
+                      The All India Council for Technical Education (AICTE) is the statutory body 
+                      and a national-level council for technical education under the Department of Higher Education, 
+                      Ministry of Education, Government of India. Established in 945, AICTE is responsible 
                       for the proper planning, formulation, and maintenance of norms and standards in technical education 
                       across the country.
                     </p>
@@ -65,21 +65,19 @@ export default function AboutPage() {
 
                   <div className="text-gray-700 leading-relaxed space-y-6 text-justify">
                     <p>
-                      <strong>KPRIET</strong> – KPR Institute of Engineering and Technology was established in the year{" "}
-                      <strong>2009</strong>. KPRIET is a{" "}
-                      <strong>
+                      KPRIET – KPR Institute of Engineering and Technology was established in the year{" "}
+                      2009. KPRIET is a{" "}
                         top-notch institute with a strength of 260 eminent faculty members, 4,500 students and 280
                         administrative and support staff
-                      </strong>
-                      . A self-contained campus, located in a <strong>lush green environment of about 66 acres</strong>,
+                      . A self-contained campus, located in a lush green environment of about 66 acres,
                       lies in the suburbs of Coimbatore, a metropolitan city of Tamil Nadu, a southern Indian state. The
-                      Institute has <strong>12 academic departments with cutting-edge research centres</strong> in a
+                      Institute has 12 academic departments with cutting-edge research centres in a
                       variety of engineering and pure science disciplines, encompassing nearly{" "}
-                      <strong>65 laboratories</strong>.
+                      65 laboratories.
                     </p>
                     <p>
                       Centres of excellence at KPRIET focus on providing transformative learning in{" "}
-                      <strong>Communications and Quantum Technologies</strong>, turning out industry-ready graduates
+                      Communications and Quantum Technologies, turning out industry-ready graduates
                       equipped with knowledge in emerging fields like quantum computing, quantum communication, advanced
                       wireless systems, and next-generation networking technologies. The training programmes offered
                       ensure that students are trained in accordance with the diversified needs of the
@@ -87,10 +85,10 @@ export default function AboutPage() {
                     </p>
                     <p>
                       KPRIET houses{" "}
-                      <strong>
+                      
                         smart classrooms, well-equipped laboratories with state-of-the-art infrastructure for quantum
                         research, unlimited high-speed wireless internet connectivity
-                      </strong>
+                      
                       , auditoriums and seminar halls with quality audio–visual systems that enables a pursuit of
                       intelligibility and a centralized library with a huge repository focusing on communications and
                       quantum sciences. The campus also features athletics, playground and gym facilities to enhance
@@ -98,14 +96,14 @@ export default function AboutPage() {
                     </p>
                     <p>
                       Academic alliance and Memoranda of Understanding with various{" "}
-                      <strong>International and National Universities</strong>, and industries in the telecommunications
+                      International and National Universities, and industries in the telecommunications
                       and quantum technology sectors facilitate global education amidst the learners of KPRIET. The
                       alliances promote exchange of students, faculty and industrial experts and encourage joint
                       research projects in quantum communications, 5G/6G technologies, and quantum computing for mutual
                       benefits. The Institution has been{" "}
-                      <strong>
+                      
                         accredited by NAAC and recognized by Department of Scientific and Industrial Research (DSIR)
-                      </strong>
+                      
                       .
                     </p>
                   </div>
@@ -142,19 +140,19 @@ export default function AboutPage() {
 
                   <div className="text-gray-700 leading-relaxed space-y-6 text-justify">
                     <p>
-                      The Department of <strong>Electronics and Communication Engineering (ECE)</strong> at KPRIET 
+                      The Department of Electronics and Communication Engineering (ECE) at KPRIET 
                       is committed to providing cutting-edge education and research opportunities in the field of 
                       electronics, communication systems, and emerging technologies.
                     </p>
                     <p>
                       With a dedicated team of faculty members, modern laboratories, and strong industry connections, 
                       the department ensures students gain hands-on experience in areas such as 
-                      <strong> VLSI design, embedded systems, signal processing, wireless communication, 
-                      and quantum technologies</strong>.
+                       VLSI design, embedded systems, signal processing, wireless communication, 
+                      and quantum technologies.
                     </p>
                     <p>
-                      The department fosters a culture of innovation through <strong>research projects, 
-                      industry collaborations, and centers of excellence</strong>, empowering students to 
+                      The department fosters a culture of innovation through research projects, 
+                      industry collaborations, and centers of excellence, empowering students to 
                       become future-ready engineers who can contribute to technological advancements 
                       in communication and computing.
                     </p>
