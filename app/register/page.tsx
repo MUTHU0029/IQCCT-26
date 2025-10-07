@@ -37,15 +37,15 @@ export default function RegisterPage() {
     //   isbn: "500 INR",
     // },
     {
-      category: "Foreign Student Members Research Scholars",
-      earlyBird: "9,500 INR",
-      late: "10,000 INR",
+      category: "Foreign Student Members / Research Scholars",
+      earlyBird: "110 USD",
+      late: "120 USD INR",
       isbn: "500 INR",
     },
     {
       category: "Foreign Academician / Industry Members",
-      earlyBird: "9,500 INR",
-      late: "10,000 INR",
+      earlyBird: "110 USD",
+      late: "120 USD",
       isbn: "500 INR",
     },
     // {
