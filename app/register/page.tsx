@@ -39,7 +39,7 @@ export default function RegisterPage() {
     {
       category: "Foreign Student Members / Research Scholars",
       earlyBird: "110 USD",
-      late: "120 USD INR",
+      late: "120 USD",
       isbn: "500 INR",
     },
     {
@@ -202,12 +202,12 @@ export default function RegisterPage() {
                     <div>
                       <p className="font-semibold mb-2">Email:</p>
                       <p>rmuralidharan.j@kpriet.ac.in</p>
-                      <p>iqcct2026@kpriet.ac.in</p>
+                      {/* <p>iqcct2026@kpriet.ac.in</p> */}
                     </div>
                     <div>
                       <p className="font-semibold mb-2">Phone:</p>
                       <p>+91 9944032043</p>
-                      <p>0422 263 5600</p>
+                      {/* <p>0422 263 5600</p> */}
                     </div>
                   </div>
                 </CardContent>
