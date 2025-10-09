@@ -246,34 +246,37 @@ export default function CallForPapersPage() {
               </div>
 
                   {/* Important Dates and Additional Info */}
-                  <div className="grid lg:grid-cols-2 gap-12">
-                    {/* Important Dates */}
-                    <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
-                      <CardContent className="p-8">
-                        <h3 className="text-2xl font-bold text-green-700 mb-8 flex items-center space-x-3">
-                          <Calendar className="w-6 h-6" />
-                          <span>Important Dates</span>
-                        </h3>
-                        <div className="space-y-6">
-                          {dates.map((item, index) => (
-                            <div key={index} className="flex items-start space-x-4 p-4 bg-gray-50 rounded-lg">
-                              <div className={`p-3 rounded-full bg-white ${item.color} shadow-sm`}>
-                                <item.icon className="w-5 h-5" />
-                              </div>
-                              <div className="flex-1">
-                                <h4 className="font-semibold text-green-700 mb-2">{item.title}</h4>
-                                <p className="text-gray-600 text-lg font-medium">{item.date}</p>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      </CardContent>
-                    </Card>
+                  <div className="flex justify-center">
+  <Card className="w-full max-w-2xl hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
+    <CardContent className="p-8">
+      <h3 className="text-2xl font-bold text-green-700 mb-8 flex items-center justify-center space-x-3">
+        <Calendar className="w-6 h-6" />
+        <span>Important Dates</span>
+      </h3>
+      <div className="space-y-6">
+        {dates.map((item, index) => (
+          <div
+            key={index}
+            className="flex items-start space-x-4 p-4 bg-gray-50 rounded-lg"
+          >
+            <div className={`p-3 rounded-full bg-white ${item.color} shadow-sm`}>
+              <item.icon className="w-5 h-5" />
+            </div>
+            <div className="flex-1">
+              <h4 className="font-semibold text-green-700 mb-2">{item.title}</h4>
+              <p className="text-gray-600 text-lg font-medium">{item.date}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </CardContent>
+  </Card>
+
 
                     {/* Additional Information */}
-                    <div className="space-y-8">
+                    {/* <div className="space-y-8">
                       {/* Follow Us */}
-                      <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
+                      {/* <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
                         <CardContent className="p-8">
                           <h3 className="text-2xl font-bold text-green-700 mb-6">Follow IQCCT'25</h3>
                           <div className="space-y-4">
@@ -291,10 +294,10 @@ export default function CallForPapersPage() {
                             </div>
                           </div>
                         </CardContent>
-                      </Card>
+                      </Card> */} 
 
                       {/* More Details */}
-                      <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
+                      {/* <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
                         <CardContent className="p-8">
                           <h3 className="text-2xl font-bold text-green-700 mb-6">Resources</h3>
                           <div className="space-y-4">
@@ -312,13 +315,12 @@ export default function CallForPapersPage() {
                             </div>
                           </div>
                         </CardContent>
-                      </Card>
-                    </div>
+                      </Card> */}
+                    {/* </div> */}
                   </div>
-                </div>
               </CardContent>
             </Card>
-          </div>
+          
         </div>
       </div>
 

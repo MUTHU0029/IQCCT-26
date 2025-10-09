@@ -21,9 +21,9 @@ export default function CommitteesPage() {
       image: "/secr.jpg",
     },
     {
-      name: "Dr. D.Saravanan",
+      name: "Dr. R.Devi Priya",
       title: "Principal",
-      image: "/prin.jpg",
+      image: "/Principal-DrDeviPriyaR.webp",
     },
   ]
 
