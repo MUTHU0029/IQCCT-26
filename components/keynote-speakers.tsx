@@ -23,6 +23,13 @@ const KeynoteSpeakers = () => {
       image: "/iqcctspeaker.jpg",
       topic: "Sustainable Power Electronics for Smart Grids",
     },
+    {
+      name: "Samuel Tensingh",
+      title: "Digital Backend Engineer",
+      organization: "Macquarie University",
+      image: "/samuel.jpg",
+      topic: "Sustainable Power Electronics for Smart Grids",
+    },
   ]
 
   return (
