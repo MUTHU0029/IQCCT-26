@@ -12,11 +12,11 @@ const ImportantDates = () => {
     },
     {
       event: "Camera Ready Submission",
-      date: "March 1, 2026",
+      date: "March 01, 2026",
       status: "upcoming",
     },
     {
-      event: "Early Bird Registration",
+      event: "Registration",
       date: "March 20, 2026",
       status: "upcoming",
     },

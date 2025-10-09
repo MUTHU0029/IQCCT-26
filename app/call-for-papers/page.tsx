@@ -24,9 +24,9 @@ export default function CallForPapersPage() {
       date: "March 1, 2026",
       color: "text-green-600",
     },
-     {
+    {
       icon: Calendar,
-      title: "Early Bird Registration",
+      title: "Registration",
       date: "March 20, 2026",
       color: "text-green-600",
     },
@@ -245,79 +245,80 @@ export default function CallForPapersPage() {
                 ))}
               </div>
 
-              {/* Important Dates & Additional Info */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
-                
-                {/* Important Dates */}
-                <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
-                  <CardContent className="p-4 sm:p-6 lg:p-8">
-                    <h3 className="text-xl sm:text-2xl font-bold text-green-700 mb-6 flex items-center space-x-2 sm:space-x-3">
-                      <Calendar className="w-5 h-5 sm:w-6 sm:h-6" />
-                      <span>Important Dates</span>
-                    </h3>
-                    <div className="space-y-4 sm:space-y-6">
-                      {dates.map((item, index) => (
-                        <div key={index} className="flex items-start space-x-3 sm:space-x-4 p-3 bg-gray-50 rounded-lg">
-                          <div className={`p-2 sm:p-3 rounded-full bg-white ${item.color} shadow-sm`}>
-                            <item.icon className="w-4 h-4 sm:w-5 sm:h-5" />
-                          </div>
-                          <div className="flex-1">
-                            <h4 className="font-semibold text-green-700 text-sm sm:text-base mb-1">{item.title}</h4>
-                            <p className="text-gray-600 text-xs sm:text-sm font-medium">{item.date}</p>
-                          </div>
+                  {/* Important Dates and Additional Info */}
+                  <div className="grid lg:grid-cols-2 gap-12">
+                    {/* Important Dates */}
+                    <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
+                      <CardContent className="p-8">
+                        <h3 className="text-2xl font-bold text-green-700 mb-8 flex items-center space-x-3">
+                          <Calendar className="w-6 h-6" />
+                          <span>Important Dates</span>
+                        </h3>
+                        <div className="space-y-6">
+                          {dates.map((item, index) => (
+                            <div key={index} className="flex items-start space-x-4 p-4 bg-gray-50 rounded-lg">
+                              <div className={`p-3 rounded-full bg-white ${item.color} shadow-sm`}>
+                                <item.icon className="w-5 h-5" />
+                              </div>
+                              <div className="flex-1">
+                                <h4 className="font-semibold text-green-700 mb-2">{item.title}</h4>
+                                <p className="text-gray-600 text-lg font-medium">{item.date}</p>
+                              </div>
+                            </div>
+                          ))}
                         </div>
-                      ))}
+                      </CardContent>
+                    </Card>
+
+                    {/* Additional Information */}
+                    <div className="space-y-8">
+                      {/* Follow Us */}
+                      <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
+                        <CardContent className="p-8">
+                          <h3 className="text-2xl font-bold text-green-700 mb-6">Follow IQCCT'25</h3>
+                          <div className="space-y-4">
+                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                              <Linkedin className="w-6 h-6 text-blue-600" />
+                              <span className="font-medium">LinkedIn Updates</span>
+                            </div>
+                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                              <Instagram className="w-6 h-6 text-pink-600" />
+                              <span className="font-medium">Instagram</span>
+                            </div>
+                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                              <Globe className="w-6 h-6 text-green-600" />
+                              <span className="font-medium">Conference Website</span>
+                            </div>
+                          </div>
+                        </CardContent>
+                      </Card>
+
+                      {/* More Details */}
+                      <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
+                        <CardContent className="p-8">
+                          <h3 className="text-2xl font-bold text-green-700 mb-6">Resources</h3>
+                          <div className="space-y-4">
+                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                              <span className="text-2xl">📄</span>
+                              <span className="font-medium">Conference Brochure</span>
+                            </div>
+                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                              <span className="text-2xl">📋</span>
+                              <span className="font-medium">Submission Guidelines</span>
+                            </div>
+                            <div className="flex items-center space-x-4 p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
+                              <span className="text-2xl">📝</span>
+                              <span className="font-medium">Paper Template</span>
+                            </div>
+                          </div>
+                        </CardContent>
+                      </Card>
                     </div>
-                  </CardContent>
-                </Card>
-
-                {/* Additional Information */}
-                <div className="space-y-6 sm:space-y-8">
-                  {/* Follow Us */}
-                  <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
-                    <CardContent className="p-4 sm:p-6 lg:p-8">
-                      <h3 className="text-xl sm:text-2xl font-bold text-green-700 mb-4 sm:mb-6">Follow IQCCT'25</h3>
-                      <div className="space-y-3 sm:space-y-4">
-                        <div className="flex items-center space-x-3 sm:space-x-4 p-2 sm:p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                          <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
-                          <span className="font-medium text-sm sm:text-base">LinkedIn Updates</span>
-                        </div>
-                        <div className="flex items-center space-x-3 sm:space-x-4 p-2 sm:p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                          <Instagram className="w-5 h-5 sm:w-6 sm:h-6 text-pink-600" />
-                          <span className="font-medium text-sm sm:text-base">Instagram</span>
-                        </div>
-                        <div className="flex items-center space-x-3 sm:space-x-4 p-2 sm:p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                          <Globe className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" />
-                          <span className="font-medium text-sm sm:text-base">Conference Website</span>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-
-                  {/* Resources */}
-                  <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-green-700">
-                    <CardContent className="p-4 sm:p-6 lg:p-8">
-                      <h3 className="text-xl sm:text-2xl font-bold text-green-700 mb-4 sm:mb-6">Resources</h3>
-                      <div className="space-y-3 sm:space-y-4">
-                        <div className="flex items-center space-x-3 sm:space-x-4 p-2 sm:p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                          <span className="text-xl sm:text-2xl">📄</span>
-                          <span className="font-medium text-sm sm:text-base">Conference Brochure</span>
-                        </div>
-                        <div className="flex items-center space-x-3 sm:space-x-4 p-2 sm:p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                          <span className="text-xl sm:text-2xl">📋</span>
-                          <span className="font-medium text-sm sm:text-base">Submission Guidelines</span>
-                        </div>
-                        <div className="flex items-center space-x-3 sm:space-x-4 p-2 sm:p-3 bg-gray-50 rounded-lg hover:bg-green-50 cursor-pointer transition-colors duration-200">
-                          <span className="text-xl sm:text-2xl">📝</span>
-                          <span className="font-medium text-sm sm:text-base">Paper Template</span>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
+                  </div>
                 </div>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </div>
 

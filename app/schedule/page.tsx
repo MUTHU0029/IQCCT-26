@@ -7,8 +7,8 @@ import { Clock, MapPin, Users, Calendar, Coffee, Presentation, Award, BookOpen }
 export default function SchedulePage() {
   const schedule = [
     {
-      day: "April 10, 2026",
-      date: "Friday",
+      day: "April 10-11, 2026",
+      date: "Friday-Saturday",
       events: [
         {
           time: "8:00 AM - 9:00 AM",

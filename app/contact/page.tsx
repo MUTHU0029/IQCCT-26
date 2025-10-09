@@ -42,7 +42,7 @@ export default function ContactPage() {
       icon: Phone,
       title: "Call Us",
       details: [
-        "Main Office: +91 9944032043",
+        // "Main Office: +91 9944032043",
         "Conference Desk: +91 9944032043",
         "Available: Mon-Fri, 9 AM - 6 PM",
       ],
@@ -54,7 +54,7 @@ export default function ContactPage() {
       icon: Mail,
       title: "Email Us",
       details: [
-        "General: info@kpriet.ac.in",
+        // "General: info@kpriet.ac.in",
         "Conference: muralidharan.j@kpriet.ac.in",
         // "Registration: registration@kpriet.ac.in",
       ],

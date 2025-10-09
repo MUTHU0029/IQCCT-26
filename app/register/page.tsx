@@ -13,53 +13,53 @@ export default function RegisterPage() {
 
   const registrationData = [
     {
-      category: "Student Members",
+      category: "Student Members / Research Scholars",
       earlyBird: "9,500 INR",
       late: "10,000 INR",
       isbn: "500 INR",
     },
     {
-      category: "Academician / Professional Members",
+      category: "Academician / Industry Members",
       earlyBird: "9,500 INR",
       late: "10,000 INR",
+      isbn: "500 INR",
+    },
+    // {
+    //   category: "Research Scholars",
+    //   earlyBird: "9,500 INR",
+    //   late: "10,000 INR",
+    //   isbn: "500 INR",
+    // },
+    // {
+    //   category: "Industry Members",
+    //   earlyBird: "9,500 INR",
+    //   late: "10,000 INR",
+    //   isbn: "500 INR",
+    // },
+    {
+      category: "Foreign Student Members / Research Scholars",
+      earlyBird: "110 USD",
+      late: "120 USD",
       isbn: "500 INR",
     },
     {
-      category: "Research Scholars",
-      earlyBird: "9,500 INR",
-      late: "10,000 INR",
+      category: "Foreign Academician / Industry Members",
+      earlyBird: "110 USD",
+      late: "120 USD",
       isbn: "500 INR",
     },
-    {
-      category: "Industry Members",
-      earlyBird: "9,500 INR",
-      late: "10,000 INR",
-      isbn: "500 INR",
-    },
-    {
-      category: "Foreign Student Members",
-      earlyBird: "9,500 INR",
-      late: "10,000 INR",
-      isbn: "500 INR",
-    },
-    {
-      category: "Foreign Academician / Professional Members",
-      earlyBird: "9,500 INR",
-      late: "10,000 INR",
-      isbn: "500 INR",
-    },
-    {
-      category: "Foreign Research Scholars",
-      earlyBird: "9,500 INR",
-      late: "10,000 INR",
-      isbn: "500 INR",
-    },
-    {
-      category: "Foreign Industry Members",
-      earlyBird: "9,500 INR",
-      late: "10,000 INR",
-      isbn: "500 INR",
-    },
+    // {
+    //   category: "Foreign Research Scholars",
+    //   earlyBird: "9,500 INR",
+    //   late: "10,000 INR",
+    //   isbn: "500 INR",
+    // },
+    // {
+    //   category: "Foreign Industry Members",
+    //   earlyBird: "9,500 INR",
+    //   late: "10,000 INR",
+    //   isbn: "500 INR",
+    // },
   ]
 
   return (
@@ -201,13 +201,13 @@ export default function RegisterPage() {
                   <div className="grid md:grid-cols-2 gap-6 text-sm">
                     <div>
                       <p className="font-semibold mb-2">Email:</p>
-                      <p>registration@kpriet.ac.in</p>
-                      <p>iqcct2025@kpriet.ac.in</p>
+                      <p>rmuralidharan.j@kpriet.ac.in</p>
+                      {/* <p>iqcct2026@kpriet.ac.in</p> */}
                     </div>
                     <div>
                       <p className="font-semibold mb-2">Phone:</p>
-                      <p>+91 422 2669000</p>
-                      <p>+91 422 2669001</p>
+                      <p>+91 9944032043</p>
+                      {/* <p>0422 263 5600</p> */}
                     </div>
                   </div>
                 </CardContent>

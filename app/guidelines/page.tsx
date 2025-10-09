@@ -38,7 +38,7 @@ export default function GuidelinesPage() {
       bgColor: "bg-orange-50",
       items: [
         "Presentation time: 15 minutes + 5 minutes Q&A",
-        "Use provided IQCCT'25 presentation template",
+        "Use provided IQCCT'26 presentation template",
         "Test equipment before presentation",
         "Bring backup on USB drive",
         "Dress code: Business formal",
@@ -76,11 +76,11 @@ export default function GuidelinesPage() {
       color: "text-red-600",
       bgColor: "bg-red-50",
       items: [
-        "Paper submission: May 31, 2025",
-        "Notification: June 10, 2025",
-        "Camera-ready: June 18, 2025",
-        "Registration: July 1, 2025",
-        "Conference: July 18, 2025",
+        "Paper submission: January 31, 2026",
+        "Notification: February 20, 2026",
+        "Camera-ready: March 01, 2026",
+        "Registration: March 20, 2026",
+        "Conference: April 10-11, 2026",
       ],
     },
   ]

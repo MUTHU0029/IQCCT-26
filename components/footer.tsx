@@ -9,13 +9,13 @@ const Footer = () => {
           {/* Conference Info */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-4 mb-6">
-              <Image
+              {/* <Image
                 src="/iqcct-2025-logo.png"
-                alt="IQCCT'25 Conference Logo"
+                alt="IQCCT'26 Conference Logo"
                 width={64}
                 height={64}
                 className="object-contain"
-              />
+              /> */}
               <div>
                 <h3 className="text-2xl font-bold text-green-400">IQCCT'26</h3>
                 <p className="text-sm text-gray-300">
