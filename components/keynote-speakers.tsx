@@ -30,6 +30,13 @@ const KeynoteSpeakers = () => {
       image: "/samuel.jpg",
       topic: "Sustainable Power Electronics for Smart Grids",
     },
+    {
+      name: "Dr.Sundaram Arumugam",
+      title: "Associate professor, School of Engineering Math and Technology",
+      organization: "Navajo Technical University, USA",
+      image: "/sundaramarumugam.jpg",
+      topic: "Sustainable Power Electronics for Smart Grids",
+    },
   ]
 
   return (
@@ -42,7 +49,7 @@ const KeynoteSpeakers = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
   {speakers.map((speaker, index) => (
     <div
       key={index}
