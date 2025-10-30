@@ -12,6 +12,12 @@ export default function RegisterPage() {
   }
 
   const registrationData = [
+     {
+      category: "IEEE Member",
+      earlyBird: "9,000 INR",
+      late: "9,500 INR",
+      isbn: "500 INR",
+    },
     {
       category: "Student Members / Research Scholars",
       earlyBird: "9,500 INR",
