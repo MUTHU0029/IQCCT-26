@@ -44,57 +44,49 @@ export default function HeroSection() {
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40 z-[1]" />
 
-      {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 h-full flex items-center">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
-          {/* Text */}
-          <div className="space-y-8 text-white">
-            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight">
-              Welcome to <span className="text-yellow-400">IQCCT'26</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-gray-200 leading-relaxed">
-              International Conference on Recent Advances in Interdisciplinary
-Quantum Computing and Communication Technologies
-            </p>
+{/* Content */}
+<div className="relative z-10 h-full flex items-center justify-center text-center px-6">
+  <div className="space-y-8 text-white flex flex-col items-center max-w-4xl">
+    
+    <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight">
+      Welcome to <span className="text-yellow-400">IQCCT'26</span>
+    </h1>
 
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                <span className="text-lg">📅 April 10-11, 2026</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                <span className="text-lg">📍 KPR Institute of Engineering and Technology</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                <span className="text-lg">🏆 SCOPUS Indexed Publications</span>
-              </div>
-            </div>
+   <p className="text-lg md:text-4xl text-gray-200 font-bold leading-relaxed">
+      AICTE Sponsored
+    </p>
+    <p className="text-lg md:text-2xl text-gray-200 leading-relaxed">
+      International Conference on Recent Advances in Interdisciplinary
+      Quantum Computing and Communication Technologies
+    </p>
 
-            {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              {/* <button className="bg-yellow-400 text-green-800 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105">
-                Submit Your Paper
-              </button> */}
-              <a
-  href="https://forms.gle/7yVFpyZst52WZGNr9" // 🔗 your link here
-  target="_blank"                        // opens in new tab
-  rel="noopener noreferrer"
->
- <button className="bg-yellow-400 text-green-800 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105">
-    Register Now
-  </button>
-</a>
-
-            </div>
-          </div>
-
-          {/* Logo + floating icons */}
-         
-        </div>
+    <div className="space-y-3">
+      <div className="flex items-center justify-center space-x-3">
+        <span className="text-lg">📅 April 10–11, 2026</span>
       </div>
+      <div className="flex items-center justify-center space-x-3">
+        <span className="text-lg">📍 KPR Institute of Engineering and Technology</span>
+      </div>
+      <div className="flex items-center justify-center space-x-3">
+        <span className="text-lg">🏆 SCOPUS Indexed Publications</span>
+      </div>
+    </div>
+
+    {/* Button */}
+    <div className="pt-4">
+      <a
+        href="https://forms.gle/7yVFpyZst52WZGNr9"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="bg-yellow-400 text-green-800 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105">
+          Register Now
+        </button>
+      </a>
+    </div>
+
+  </div>
+</div>
 
       {/* Slide Indicators */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-1 z-20">
