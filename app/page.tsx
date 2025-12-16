@@ -54,10 +54,10 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h1 className="text-2xl md:text-3xl font-bold text-green-700 mb-8">
-              Accepted papers will be published in SCOPUS Indexed AIP/IEEE/Springer Conference Proceedings.
+              Selected papers will be published in SCOPUS Indexed Conference Proceedings
             </h1>
 
-            <div className="flex justify-center items-center space-x-6 flex-wrap gap-8">
+            {/* <div className="flex justify-center items-center space-x-6 flex-wrap gap-8">
               <div className="flex items-center">
                 <Image src="/Scopus_logo-MoAY4mVa.svg" alt="Scopus" width={200} height={120} className="object-contain" />
               </div>
@@ -70,7 +70,7 @@ export default function Home() {
               <div className="flex items-center">
                 <Image src="/download.jpg" alt="AIP" width={200} height={120} className="object-contain" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

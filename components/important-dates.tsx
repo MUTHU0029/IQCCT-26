@@ -36,9 +36,7 @@ const ImportantDates = () => {
           <div key={index} className="flex flex-col space-y-1 pb-4 border-b border-gray-100 last:border-b-0">
             <div className="flex items-start justify-between">
               <h4 className="font-medium text-gray-800 text-sm leading-tight flex-1 pr-2">{item.event}</h4>
-              {item.status === "conference" && (
-                <span className="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full font-medium">Event</span>
-              )}
+              {item.status === "conference" }
             </div>
             <p className="text-[#2d5a80] font-semibold text-sm">{item.date}</p>
           </div>
