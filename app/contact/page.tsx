@@ -44,7 +44,7 @@ export default function ContactPage() {
       details: [
         // "Main Office: +91 9944032043",
         "Conference Desk: +91 9944032043",
-        "Available: Mon-Fri, 9 AM - 6 PM",
+        "Available: Mon-Fri, 9 AM - 4 PM",
       ],
       color: "text-green-700",
       bgColor: "bg-green-50",
@@ -55,7 +55,7 @@ export default function ContactPage() {
       title: "Email Us",
       details: [
         // "General: info@kpriet.ac.in",
-        "Conference: muralidharan.j@kpriet.ac.in",
+        "iqcct26@kpriet.ac.in",
         // "Registration: registration@kpriet.ac.in",
       ],
       color: "text-green-700",
