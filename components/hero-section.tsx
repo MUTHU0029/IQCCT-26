@@ -45,7 +45,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/40 z-[1]" />
 
 {/* Content */}
-<div className="relative z-10 h-full flex items-center justify-center text-center px-6">
+<div className="relative z-10 h-150 flex items-center justify-center text-center px-4">
   <div className="space-y-8 text-white flex flex-col items-center max-w-4xl">
     
     <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight">

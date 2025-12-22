@@ -207,7 +207,7 @@ export default function RegisterPage() {
                   <div className="grid md:grid-cols-2 gap-6 text-sm">
                     <div>
                       <p className="font-semibold mb-2">Email:</p>
-                      <p>rmuralidharan.j@kpriet.ac.in</p>
+                      <p>iqcct26@kpriet.ac.in</p>
                       {/* <p>iqcct2026@kpriet.ac.in</p> */}
                     </div>
                     <div>

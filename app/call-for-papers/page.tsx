@@ -329,8 +329,11 @@ export default function CallForPapersPage() {
         <Card className="max-w-4xl mx-auto bg-gradient-to-r from-green-50 to-green-100 border-2 border-green-200">
           <CardContent className="p-6 sm:p-8 lg:p-10">
             <h2 className="text-xl sm:text-2xl lg:text-2xl font-bold text-green-700 mb-3 sm:mb-4">Publication Opportunity</h2>
-            <p className="text-sm sm:text-base font-semibold text-gray-900 mb-2 sm:mb-4">
+            {/* <p className="text-sm sm:text-base font-semibold text-gray-900 mb-2 sm:mb-4">
               Accepted papers will be published in SCOPUS Indexed AIP/IEEE/Springer Conference Proceedings.
+            </p> */}
+            <p className="text-sm sm:text-base font-semibold text-gray-900 mb-2 sm:mb-4">
+              Selected papers will be published in SCOPUS Indexed Conference Proceedings.
             </p>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
               Authors are invited to submit high-quality research papers on Communications and Quantum

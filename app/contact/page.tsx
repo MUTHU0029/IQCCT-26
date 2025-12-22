@@ -45,23 +45,24 @@ export default function ContactPage() {
         // "Main Office: +91 9944032043",
         "Conference Desk: +91 9944032043",
         "Available: Mon-Fri, 9 AM - 4 PM",
+        "Email : iqcct26@kpriet.ac.in",
       ],
       color: "text-green-700",
       bgColor: "bg-green-50",
       borderColor: "border-green-200",
     },
-    {
-      icon: Mail,
-      title: "Email Us",
-      details: [
-        // "General: info@kpriet.ac.in",
-        "iqcct26@kpriet.ac.in",
-        // "Registration: registration@kpriet.ac.in",
-      ],
-      color: "text-green-700",
-      bgColor: "bg-green-50",
-      borderColor: "border-green-200",
-    },
+    // {
+    //   icon: Mail,
+    //   title: "Email Us",
+    //   details: [
+    //     // "General: info@kpriet.ac.in",
+    //     "iqcct26@kpriet.ac.in",
+    //     // "Registration: registration@kpriet.ac.in",
+    //   ],
+    //   color: "text-green-700",
+    //   bgColor: "bg-green-50",
+    //   borderColor: "border-green-200",
+    // },
     
   ]
 
@@ -202,7 +203,7 @@ export default function ContactPage() {
 
                 {/* Enhanced Map Section */}
                <Card className="bg-white/80 backdrop-blur-sm overflow-hidden shadow-2xl">
-  <CardHeader className="bg-green-700 text-white">
+  <CardHeader className="bg-white text-green-700">
     <CardTitle className="flex items-center space-x-2 text-xl">
       <MapPin className="w-8 h-8" />
       <span>Campus Location</span>
@@ -210,7 +211,7 @@ export default function ContactPage() {
   </CardHeader>
 
   <CardContent className="p-0">
-    <div className="relative w-full h-100">
+    <div className="relative w-full h-64 md:h-72 lg:h-80 xl:h-96">
       {/* Image fully covers the box */}
       <Image
         src="/kpriet1.jpg"   // make sure this file exists in /public
