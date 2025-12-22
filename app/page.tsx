@@ -15,7 +15,7 @@ export default function Home() {
       <HeroSection />
 
       {/* Conference Information Section */}
-      <section className="py-16 bg-white">
+      <section className="py-10 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-3 gap-12">
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+<KeynoteSpeakers />
       <section className="py-10 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
@@ -76,7 +76,6 @@ export default function Home() {
       </section>
 
       {/* Keynote Speakers Section */}
-      <KeynoteSpeakers />
 
       {/* Countdown Timer Section */}
       <section className="py-2 bg-white">

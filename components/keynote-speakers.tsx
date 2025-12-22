@@ -1,90 +1,125 @@
+"use client"
+
 import Image from "next/image"
+import { useEffect, useState } from "react"
 
 const KeynoteSpeakers = () => {
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
   const speakers = [
     {
       name: "Dr. N. Ramasubramanian",
       title: "Professor",
       organization: "NIT Trichy",
       image: "/nrs.jpeg",
-      topic: "Future of Artificial Intelligence in Smart Systems",
     },
     {
-      name: "Dr. Surendiran . B",
+      name: "Dr. Surendiran B",
       title: "Professor",
       organization: "NIT Puducherry",
       image: "/NIT.jpg",
-      topic: "Autonomous Robotics and Human-Machine Interaction",
     },
     {
       name: "Dr. Farman Ali",
       title: "Faculty of AI and Engineering",
       organization: "Multimedia University, Malaysia",
       image: "/iqcctspeaker.jpg",
-      topic: "Sustainable Power Electronics for Smart Grids",
     },
     {
       name: "Samuel Tensingh",
       title: "Digital Backend Engineer",
       organization: "Macquarie University",
       image: "/samuel.jpg",
-      topic: "Sustainable Power Electronics for Smart Grids",
     },
     {
-      name: "Dr.Sundaram Arumugam",
-      title: "Associate professor, School of Engineering Math and Technology",
+      name: "Dr. Sundaram Arumugam",
+      title: "Associate Professor, School of Engineering Math and Technology",
       organization: "Navajo Technical University, USA",
       image: "/sundaramarumugam.jpg",
-      topic: "Sustainable Power Electronics for Smart Grids",
     },
   ]
 
+  // Duplicate for infinite animation
+  const extendedSpeakers = [...speakers, ...speakers]
+
+  if (!mounted) return null
+
   return (
-    <section className="py-0 bg-white">
+    <section className="py-12 bg-white">
+      {/* Animation */}
+      <style>{`
+        @keyframes slideLeft {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+
+        .carousel {
+          animation: slideLeft 60s linear infinite;
+        }
+
+        .carousel:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
+
       <div className="container-center px-6">
+        {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-green-700 mb-4">Keynote Speakers</h2>
+          <h2 className="text-3xl font-bold text-green-700 mb-4">
+            Keynote Speakers
+          </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Learn from industry leaders and renowned researchers who are shaping the future of technology
+            Learn from industry people and renowned researchers shaping the
+            future of technology
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
-  {speakers.map((speaker, index) => (
-    <div
-      key={index}
-      className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col h-full w-80"
-    >
-      {/* Image section */}
-      <div className="relative h-48 bg-gradient-to-br from-[#2d5a80] to-[#3d5a80]">
-        <Image
-          src={speaker.image || "/placeholder.svg"}
-          alt={speaker.name}
-          fill
-          className="object-cover"
-        />
-      </div>
+        {/* OUTER RELATIVE WRAPPER (for gradients) */}
+        <div className="relative w-full">
+          {/* INNER OVERFLOW CLIP (only scrolling area) */}
+          <div className="overflow-hidden">
+            <div className="carousel flex gap-6">
+              {extendedSpeakers.map((speaker, index) => (
+                <div
+                  key={index}
+                  className="flex-shrink-0 w-80 bg-white rounded-lg shadow-lg
+                             transition-all duration-300 hover:shadow-2xl
+                             hover:-translate-y-2"
+                >
+                  {/* Image */}
+                  <div className="relative h-48 bg-gradient-to-br from-[#2d5a80] to-[#3d5a80]">
+                    <Image
+                      src={speaker.image}
+                      alt={speaker.name}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
 
-      {/* Content section */}
-      <div className="p-6 flex flex-col flex-grow">
-        <h3 className="text-xl font-bold text-green-700 mb-2">{speaker.name}</h3>
-        <p className="text-gray-600 font-medium mb-1">{speaker.title}</p>
-        <p className="text-gray-500 text-sm mb-4">{speaker.organization}</p>
+                  {/* Content */}
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold text-green-700 mb-1">
+                      {speaker.name}
+                    </h3>
+                    <p className="text-gray-600 font-medium">
+                      {speaker.title}
+                    </p>
+                    <p className="text-gray-500 text-sm">
+                      {speaker.organization}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
 
-        <div className="border-t pt-4 mt-auto">
-          {/* <p className="text-sm text-gray-700 font-medium">Topic:</p> */}
-          {/* <p className="text-sm text-gray-600 italic">{speaker.topic}</p> */}
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
-
-
-        <div className="text-center mt-12">
-          {/* <button className="bg-green-700 text-white px-8 py-3 rounded-full font-medium  transition-colors">
-            View All Speakers
-          </button> */}
+          {/* GRADIENT EDGES (safe now) */}
+          <div className="pointer-events-none absolute left-0 top-0 h-full w-32 bg-gradient-to-r from-white to-transparent z-10" />
+          <div className="pointer-events-none absolute right-0 top-0 h-full w-32 bg-gradient-to-l from-white to-transparent z-10" />
         </div>
       </div>
     </section>

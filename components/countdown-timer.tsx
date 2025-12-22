@@ -42,7 +42,7 @@ export default function CountdownTimer() {
   }
 
   return (
-    <div className="text-center py-4">
+    <div className="text-center py-0">
       <div className="mb-4">
         <h3 className="text-2xl font-bold text-green-700 mb-2">Conference Countdown</h3>
         <p className="text-gray-600">Time remaining until IQCCT'26</p>
