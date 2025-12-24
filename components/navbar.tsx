@@ -90,7 +90,7 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
               <div className="flex justify-between items-center h-full gap-2 sm:gap-4">
                 <div className="flex items-center h-full flex-shrink-0">
   {/* AICTE logo */}
-  <div className="w-16 h-16 sm:w-20 sm:h-20 relative flex-shrink-0 mr-2 sm:mr-4">
+  <div className="w-20 h-20 sm:w-20 sm:h-20 relative flex-shrink-0 mr-2 sm:mr-4">
     <Image
       src="/aicte-logo-official1.png"
       alt="AICTE Logo"
@@ -143,7 +143,7 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
                       Avinashi Road, Arasur, Coimbatore
                     </div>
                   </div>
-                  <div className="w-16 h-16 sm:w-25 sm:h-25 relative flex-shrink-0 flex items-center">
+                  <div className="w-24 h-24 sm:w-25 sm:h-25 relative flex-shrink-0 flex items-center">
                     <Image
                       src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kpriet%20logo-2ZbJN1Sf9qibemRScHdX9K44LKLG2u.webp"
                       alt="KPR Institute Logo"
@@ -160,7 +160,7 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
         {/* Green navigation bar (always visible) */}
         <nav className="bg-green-700 h-12">
           <div className="max-w-7xl mx-auto px-6 h-full">
-            <div className="flex justify-between items-center h-full">
+            <div className="flex items-center h-full">
               {/* Desktop nav */}
               <div className="hidden lg:flex items-center justify-center flex-1">
                 <div className="flex items-center">
@@ -194,7 +194,7 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
               </div>
 
               {/* Mobile menu button */}
-              <div className="lg:hidden">
+              <div className="lg:hidden ml-auto">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   className="text-white hover:text-gray-200 focus:outline-none transition-all duration-200"
