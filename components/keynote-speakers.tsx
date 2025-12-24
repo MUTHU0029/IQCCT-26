@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { useEffect, useState } from "react"
 
 const KeynoteSpeakers = () => {
@@ -58,7 +59,7 @@ const KeynoteSpeakers = () => {
         }
 
         .carousel {
-          animation: slideLeft 60s linear infinite;
+          animation: slideLeft 10s linear infinite;
         }
 
         .carousel:hover {
@@ -121,6 +122,14 @@ const KeynoteSpeakers = () => {
           <div className="pointer-events-none absolute left-0 top-0 h-full w-32 bg-gradient-to-r from-white to-transparent z-10" />
           <div className="pointer-events-none absolute right-0 top-0 h-full w-32 bg-gradient-to-l from-white to-transparent z-10" />
         </div>
+      </div>
+      <div className="flex justify-center mt-8">
+        <Link
+          href="/speakers"
+          className="bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition-colors duration-300"
+        >
+          View All Speakers
+        </Link>
       </div>
     </section>
   )

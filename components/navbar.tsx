@@ -6,7 +6,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-const HEADER_HEIGHT = 112; // px (top banner height)
+const HEADER_HEIGHT = 120; // px (top banner height)
 const NAV_HEIGHT = 48; // px (green bar height)
 const SHOW_HIDE_THRESHOLD = 120; // px scroll before we start hiding the header
 
@@ -87,10 +87,10 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
             }}
           >
             <div className="max-w-7xl mx-auto px-6 h-full">
-              <div className="flex justify-between items-center h-full">
-                <div className="flex items-center">
+              <div className="flex justify-between items-center h-full gap-2 sm:gap-4">
+                <div className="flex items-center h-full flex-shrink-0">
   {/* AICTE logo */}
-  <div className="w-20 h-20 relative flex-shrink-0 mr-4">
+  <div className="w-12 h-12 sm:w-20 sm:h-20 relative flex-shrink-0 mr-2 sm:mr-4">
     <Image
       src="/aicte-logo-official1.png"
       alt="AICTE Logo"
@@ -113,22 +113,23 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
 </div>
 
 
-                <div className="flex-1 text-center px-4 md:px-8">
-  <h2 className="text-[14px] md:text-xl font-semibold text-green-700 mb-1">
+                <div className="flex-1 text-center px-2 sm:px-4 md:px-8 min-w-0 flex flex-col justify-center h-full">
+  <h2 className="text-[12px] sm:text-[14px] md:text-xl font-semibold text-green-700 mb-1 truncate">
     AICTE SPONSORED
   </h2>
-  <h1 className="text-[13px] md:text-lg text-[#2d3748] leading-relaxed font-normal">
-    International Conference on Recent Advances in Interdisciplinary
-    <br />
-    Quantum Computing and Communication&nbsp;Technologies
-    <br />
+  <h1 className="hidden sm:block text-[13px] md:text-lg text-[#2d3748] leading-relaxed font-normal">
+      <span className="hidden sm:inline">
+        International Conference on Recent Advances in Interdisciplinary
+        <br />
+        Quantum Computing and Communication&nbsp;Technologies
+        <br />
+      </span>
     <span className="font-bold text-green-700">(IQCCT'26)</span>
   </h1>
 </div>
 
-
-                <div className="flex items-center space-x-4">
-                  <div className="text-right hidden sm:block">
+                <div className="flex items-center gap-2 sm:gap-4 flex-shrink-0 h-full">
+                  <div className="text-right hidden sm:flex flex-col justify-center">
                     <div className="text-sm font-bold text-[#2d3748] leading-tight">
                       KPR Institute of
                       <br />
@@ -142,7 +143,7 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
                       Avinashi Road, Arasur, Coimbatore
                     </div>
                   </div>
-                  <div className="w-25 h-25 relative flex-shrink-0">
+                  <div className="w-12 h-12 sm:w-25 sm:h-25 relative flex-shrink-0 flex items-center">
                     <Image
                       src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kpriet%20logo-2ZbJN1Sf9qibemRScHdX9K44LKLG2u.webp"
                       alt="KPR Institute Logo"
