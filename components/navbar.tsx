@@ -90,7 +90,7 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
               <div className="flex justify-between items-center h-full gap-2 sm:gap-4">
                 <div className="flex items-center h-full flex-shrink-0">
   {/* AICTE logo */}
-  <div className="w-12 h-12 sm:w-20 sm:h-20 relative flex-shrink-0 mr-2 sm:mr-4">
+  <div className="w-16 h-16 sm:w-20 sm:h-20 relative flex-shrink-0 mr-2 sm:mr-4">
     <Image
       src="/aicte-logo-official1.png"
       alt="AICTE Logo"
@@ -114,10 +114,10 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
 
 
                 <div className="flex-1 text-center px-2 sm:px-4 md:px-8 min-w-0 flex flex-col justify-center h-full">
-  <h2 className="text-[12px] sm:text-[14px] md:text-xl font-semibold text-green-700 mb-1 truncate">
+  <h2 className="text-[14px] sm:text-[14px] md:text-xl font-semibold text-green-700 mb-1 truncate">
     AICTE SPONSORED
   </h2>
-  <h1 className="hidden sm:block text-[13px] md:text-lg text-[#2d3748] leading-relaxed font-normal">
+  <h1 className="text-[11px] sm:text-[13px] md:text-lg text-[#2d3748] leading-tight sm:leading-relaxed font-normal">
       <span className="hidden sm:inline">
         International Conference on Recent Advances in Interdisciplinary
         <br />
@@ -143,7 +143,7 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
                       Avinashi Road, Arasur, Coimbatore
                     </div>
                   </div>
-                  <div className="w-12 h-12 sm:w-25 sm:h-25 relative flex-shrink-0 flex items-center">
+                  <div className="w-16 h-16 sm:w-25 sm:h-25 relative flex-shrink-0 flex items-center">
                     <Image
                       src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kpriet%20logo-2ZbJN1Sf9qibemRScHdX9K44LKLG2u.webp"
                       alt="KPR Institute Logo"
