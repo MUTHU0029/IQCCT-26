@@ -3,10 +3,46 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "IQCCT'26 - International Conference on Communications and Quantum Technologies",
+  title: "IQCCT'26 - International Conference on Quantum Computing and Communication Technologies",
   description:
-    "International Conference on Communications and Quantum Technologies organized by KPR Institute of Engineering and Technology",
-  generator: "v0.dev",
+    "International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies (IQCCT'26) hosted by KPR Institute of Engineering and Technology. Submit research papers, join keynote speakers, and explore quantum innovations.",
+  keywords: "quantum computing, communication technologies, conference, IQCCT'26, KPRIET, quantum cryptography, 5G, 6G, IoT",
+  authors: [{ name: "IQCCT'26" }],
+  creator: "KPRIET",
+  publisher: "KPRIET",
+  formatDetection: {
+    email: false,
+    telephone: false,
+  },
+  viewport: "width=device-width, initial-scale=1",
+  robots: "index, follow",
+  openGraph: {
+    title: "IQCCT'26 - Quantum Computing & Communication Technologies Conference",
+    description:
+      "International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies at KPRIET",
+    url: "https://iqcct.in",
+    siteName: "IQCCT'26",
+    images: [
+      {
+        url: "https://iqcct.in/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "IQCCT'26 Conference",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IQCCT'26 - Quantum Computing Conference",
+    description:
+      "International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies",
+    images: ["https://iqcct.in/og-image.jpg"],
+  },
+  alternates: {
+    canonical: "https://iqcct.in",
+  },
 }
 
 export default function RootLayout({

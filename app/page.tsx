@@ -5,6 +5,20 @@ import CountdownTimer from "@/components/countdown-timer"
 import KeynoteSpeakers from "@/components/keynote-speakers"
 import ImportantDates from "@/components/important-dates"
 import Image from "next/image"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Home - IQCCT'26 | Quantum Computing & Communication Technologies",
+  description:
+    "Welcome to IQCCT'26 - International Conference on Recent Advances in Interdisciplinary Quantum Computing and Communication Technologies at KPRIET. Submit papers, register, and join industry leaders.",
+  openGraph: {
+    title: "IQCCT'26 - Home",
+    description:
+      "International Conference on Quantum Computing and Communication Technologies",
+    url: "https://iqcct.in",
+    type: "website",
+  },
+}
 
 export default function Home() {
   return (
