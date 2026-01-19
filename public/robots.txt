@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://iqcct.in/sitemap.xml
