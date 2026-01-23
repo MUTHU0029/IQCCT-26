@@ -28,16 +28,16 @@ const Footer = () => {
               academicians, and industry professionals to showcase advancements in communications and quantum
               technologies.
             </p>
-            <div className="flex items-center space-x-4 mb-4">
+            <div className="flex items-center space-x-4 mb-2">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kpriet%20logo-2ZbJN1Sf9qibemRScHdX9K44LKLG2u.webp"
                 alt="KPR Institute Logo"
-                width={40}
-                height={40}
+                width={80}
+                height={80}
                 className="object-contain"
               />
               <div>
-                <p className="text-gray-400 text-xs">
+                <p className="text-gray-200 text-xs">
                   Learn Beyond | Autonomous, NAAC 'A+' <br />
                   Avinashi Road, Arasur, Coimbatore - 641407
                 </p>

@@ -2,22 +2,22 @@ const ImportantDates = () => {
   const dates = [
     {
       event: "Paper Submission Deadline",
-      date: "January 31, 2026",
+      date: "February 28, 2026",
       status: "upcoming",
     },
     {
       event: "Notification of Acceptance",
-      date: "February 20, 2026",
+      date: "March 10, 2026",
       status: "upcoming",
     },
     {
       event: "Camera Ready Submission",
-      date: "March 01, 2026",
+      date: "March 20, 2026",
       status: "upcoming",
     },
     {
       event: "Registration",
-      date: "March 20, 2026",
+      date: "March 25, 2026",
       status: "upcoming",
     },
     {

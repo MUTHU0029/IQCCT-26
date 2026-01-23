@@ -43,6 +43,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://iqcct.in",
   },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-icon.png",
+  },
 }
 
 export default function RootLayout({

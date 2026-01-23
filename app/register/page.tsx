@@ -153,12 +153,12 @@ export default function RegisterPage() {
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex justify-between">
                       <span>Early Bird Registration:</span>
-                      <span className="font-medium">March 20, 2026</span>
+                      <span className="font-medium">March 25, 2026</span>
                     </li>
-                    <li className="flex justify-between">
+                    {/* <li className="flex justify-between">
                       <span>Late Registration:</span>
                       <span className="font-medium">April 1, 2026</span>
-                    </li>
+                    </li> */}
                     <li className="flex justify-between">
                       <span>Conference Date:</span>
                       <span className="font-medium">April 10-11, 2026</span>
