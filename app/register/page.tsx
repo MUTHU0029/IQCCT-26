@@ -12,21 +12,21 @@ export default function RegisterPage() {
   }
 
   const registrationData = [
-     {
-      category: "IEEE Member",
-      earlyBird: "9,000 INR",
+    {
+      category: "Paper Presentation Only",
+      earlyBird: "1500 INR",
       late: "9,500 INR",
       isbn: "500 INR",
     },
     {
-      category: "Student Members / Research Scholars",
-      earlyBird: "9,500 INR",
+      category: "Paper Presentation & Scopus Indexed Publication (Indian Authors)",
+      earlyBird: "12,000 INR",
       late: "10,000 INR",
       isbn: "500 INR",
     },
     {
-      category: "Academician / Industry Members",
-      earlyBird: "9,500 INR",
+      category: "Paper Presentation & Scopus Indexed Publication (Foreign Authors)",
+      earlyBird: "$150 USD",
       late: "10,000 INR",
       isbn: "500 INR",
     },
@@ -42,18 +42,18 @@ export default function RegisterPage() {
     //   late: "10,000 INR",
     //   isbn: "500 INR",
     // },
-    {
-      category: "Foreign Student Members / Research Scholars",
-      earlyBird: "110 USD",
-      late: "120 USD",
-      isbn: "500 INR",
-    },
-    {
-      category: "Foreign Academician / Industry Members",
-      earlyBird: "110 USD",
-      late: "120 USD",
-      isbn: "500 INR",
-    },
+    // {
+    //   category: "Foreign Student Members / Research Scholars",
+    //   earlyBird: "110 USD",
+    //   late: "120 USD",
+    //   isbn: "500 INR",
+    // },
+    // {
+    //   category: "Foreign Academician / Industry Members",
+    //   earlyBird: "110 USD",
+    //   late: "120 USD",
+    //   isbn: "500 INR",
+    // },
     // {
     //   category: "Foreign Research Scholars",
     //   earlyBird: "9,500 INR",
@@ -115,11 +115,11 @@ export default function RegisterPage() {
                             Details
                           </th>
                           <th className="border border-gray-300 px-6 py-4 text-left font-semibold text-gray-900">
-                            Early Bird Registration
+                            Registration Fees
                           </th>
-                          <th className="border border-gray-300 px-6 py-4 text-left font-semibold text-gray-900">
+                          {/* <th className="border border-gray-300 px-6 py-4 text-left font-semibold text-gray-900">
                             Late Registration
-                          </th>
+                          </th> */}
                           {/* <th className="border border-gray-300 px-6 py-4 text-left font-semibold text-gray-900">
                             ISBN Proceedings
                           </th> */}
@@ -128,11 +128,11 @@ export default function RegisterPage() {
                       <tbody>
                         {registrationData.map((row, index) => (
                           <tr key={index} className={index % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                            <td className="border border-gray-300 px-6 py-4 font-medium text-gray-900">
+                            <td className="border border-gray-300 px-6 py-4 font-medium text-gray-600">
                               {row.category}
                             </td>
-                            <td className="border border-gray-300 px-6 py-4 text-gray-700">{row.earlyBird}</td>
-                            <td className="border border-gray-300 px-6 py-4 text-gray-700">{row.late}</td>
+                            <td className="border border-gray-200 px-6 py-4 text-gray-700">{row.earlyBird}</td>
+                            {/* <td className="border border-gray-300 px-6 py-4 text-gray-700">{row.late}</td> */}
                             {/* <td className="border border-gray-300 px-6 py-4 text-gray-700">{row.isbn}</td> */}
                           </tr>
                         ))}
