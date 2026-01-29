@@ -45,7 +45,7 @@ const ImportantDates = () => {
 
       <div className="mt-6 pt-4 border-t border-gray-200">
         <a
-          href="https://forms.gle/7yVFpyZst52WZGNr9"
+          href="https://forms.gle/wAnqcuu5UH5QLPGW6"
           target="_blank"
           rel="noopener noreferrer"
         >

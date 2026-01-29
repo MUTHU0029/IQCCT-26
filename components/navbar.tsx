@@ -183,7 +183,7 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
               {/* Submit Paper (desktop) */}
               <div className="hidden lg:block">
                 <a
-  href="https://forms.gle/7yVFpyZst52WZGNr9" // 🔗 your link here
+  href="https://forms.gle/wAnqcuu5UH5QLPGW6" // 🔗 your link here
   target="_blank"                        // opens in new tab
   rel="noopener noreferrer"
 >
@@ -224,7 +224,7 @@ const spacerHeight = HEADER_HEIGHT + NAV_HEIGHT + "px"
 
                 <div className="pt-4 pb-2">
                   <a
-  href="https://forms.gle/7yVFpyZst52WZGNr9" // 🔗 your link here
+  href="https://forms.gle/wAnqcuu5UH5QLPGW6" // 🔗 your link here
   target="_blank"                        // opens in new tab
   rel="noopener noreferrer"
 >

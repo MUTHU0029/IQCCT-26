@@ -87,7 +87,7 @@ export default function RegisterPage() {
                   computing, quantum communication, 5G/6G technologies, and next-generation communication systems.
                 </p>
               <a
-  href="https://forms.gle/7yVFpyZst52WZGNr9"
+  href="https://forms.gle/wAnqcuu5UH5QLPGW6"
   target="_blank"
   rel="noopener noreferrer"
 >
@@ -151,14 +151,23 @@ export default function RegisterPage() {
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3 text-gray-700">
+    
                     <li className="flex justify-between">
-                      <span>Early Bird Registration:</span>
+                      <span>Paper Submission Deadline</span>
+                      <span className="font-medium">February 28, 2026</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Notification of Acceptance</span>
+                      <span className="font-medium">March 10, 2026</span>
+                    </li>
+                     <li className="flex justify-between">
+                      <span>Camera Ready Submission</span>
+                      <span className="font-medium">March 20, 2026</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Registration:</span>
                       <span className="font-medium">March 25, 2026</span>
                     </li>
-                    {/* <li className="flex justify-between">
-                      <span>Late Registration:</span>
-                      <span className="font-medium">April 1, 2026</span>
-                    </li> */}
                     <li className="flex justify-between">
                       <span>Conference Date:</span>
                       <span className="font-medium">April 10-11, 2026</span>
