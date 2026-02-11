@@ -119,15 +119,24 @@ const Footer = () => {
               </p>
             </div>
 
-            {/* <div className="mt-6">
-              <h5 className="text-sm font-semibold mb-3 text-green-400">Publication Partners</h5>
+            <div className="mt-6">
+              <h4 className="text-lg font-semibold mb-4 text-green-400">Developed By</h4>
               <div className="flex flex-wrap gap-2">
-                <span className="text-xs bg-green-600 text-white px-2 py-1 rounded">SCOPUS</span>
-                <span className="text-xs bg-blue-600 text-white px-2 py-1 rounded">IEEE</span>
-                <span className="text-xs bg-orange-600 text-white px-2 py-1 rounded">Springer</span>
-                <span className="text-xs bg-red-600 text-white px-2 py-1 rounded">AIP</span>
+                <Link
+                  href="https://www.linkedin.com/in/sanjay-k-ba2a28295"
+                  className="text-gray-300 hover:text-green-400 transition-colors duration-200 flex items-center space-x-2"
+                  >
+                  <span>SANJAY K</span>
+                  </Link>
+                  <span>&</span>
+                <Link
+                  href="https://www.linkedin.com/in/muthu-vigneshk"
+                  className="text-gray-300 hover:text-green-400 transition-colors duration-200 flex items-center space-x-2"
+                  >
+                  <span>MUTHUVIGNESH K</span>
+                  </Link>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
 
