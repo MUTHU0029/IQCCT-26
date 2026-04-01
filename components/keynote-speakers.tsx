@@ -32,7 +32,7 @@ const KeynoteSpeakers = () => {
     },
     {
       name: "Prof. Ir. Dr. Fauziahanim Binti Che Seman",
-      title: "Professor",
+      title: "Head of Center of Excellence, Research Center for Applied Electromagnetics",
       organization: "Universiti Tun Hussein Onn Malaysia",
       image: "/prof-fauziahanim.jpg",
     },

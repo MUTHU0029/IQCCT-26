@@ -52,7 +52,6 @@ export default function SpeakersPage() {
           <div className="max-w-7xl mx-auto">
             <Card className="shadow-lg border border-gray-200 rounded-lg">
               <CardContent className="p-12">
-                {/* Header Section */}
                 <div className="text-center mb-16">
                   <h1 className="text-5xl font-bold text-green-700 mb-8 ">Keynote Speakers</h1>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
