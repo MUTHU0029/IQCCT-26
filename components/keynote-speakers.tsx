@@ -31,6 +31,12 @@ const KeynoteSpeakers = () => {
       image: "/iqcctspeaker.jpg",
     },
     {
+      name: "Prof. Ir. Dr. Fauziahanim Binti Che Seman",
+      title: "Professor",
+      organization: "Universiti Tun Hussein Onn Malaysia",
+      image: "/prof-fauziahanim.jpg",
+    },
+    {
       name: "Samuel Tensingh",
       title: "Digital Backend Engineer",
       organization: "Macquarie University",

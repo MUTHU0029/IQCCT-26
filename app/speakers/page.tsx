@@ -35,6 +35,12 @@ export default function SpeakersPage() {
       organization: "Navajo Technical University, USA",
       image: "/sundaramarumugam.jpg",
     },
+    {
+      name: "Prof. Ir. Dr. Fauziahanim Binti Che Seman",
+      title: "Professor",
+      organization: "Universiti Tun Hussein Onn Malaysia",
+      image: "/prof-fauziahanim.jpg",
+    },
   ]
 
   return (

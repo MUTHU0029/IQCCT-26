@@ -52,6 +52,23 @@ export default function Home() {
   </p>
 </div>
 
+                <div className="mt-14">
+                 <h2 className="text-3xl font-bold text-green-700 mb-6 border-l-4 border-green-700 pl-4">
+                  Technical Partner
+                </h2>
+                  <p className="text-gray-700 leading-relaxed mb-6">
+                    Our technical partner plays a key role in supporting IQCCT'26 with advanced infrastructure, digital collaboration tools, and expert technology resources. This partnership ensures a seamless conference experience and strengthens our mission to foster innovation across quantum computing and communication technologies.
+                  </p>
+                  <div className="max-w-sm rounded-3xl overflow-hidden border border-green-100 bg-green-50 p-4">
+                    <Image
+                      src="/logo-uthm-web426x117.png"
+                      alt="Technical Partner"
+                      width={500}
+                      height={280}
+                      className="w-full h-auto object-contain"
+                    />
+                  </div>
+                </div>
 
               </div>
 
