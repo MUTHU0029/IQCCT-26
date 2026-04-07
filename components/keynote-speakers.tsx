@@ -12,24 +12,24 @@ const KeynoteSpeakers = () => {
   }, [])
 
   const speakers = [
-    {
-      name: "Dr. N. Ramasubramanian",
-      title: "Professor",
-      organization: "NIT Trichy",
-      image: "/nrs.jpeg",
-    },
-    {
-      name: "Dr. Surendiran B",
-      title: "Professor",
-      organization: "NIT Puducherry",
-      image: "/NIT.jpg",
-    },
-    {
-      name: "Dr. Farman Ali",
-      title: "Faculty of AI and Engineering",
-      organization: "Multimedia University, Malaysia",
-      image: "/iqcctspeaker.jpg",
-    },
+    // {
+    //   name: "Dr. N. Ramasubramanian",
+    //   title: "Professor",
+    //   organization: "NIT Trichy",
+    //   image: "/nrs.jpeg",
+    // },
+    // {
+    //   name: "Dr. Surendiran B",
+    //   title: "Professor",
+    //   organization: "NIT Puducherry",
+    //   image: "/NIT.jpg",
+    // },
+    // {
+    //   name: "Dr. Farman Ali",
+    //   title: "Faculty of AI and Engineering",
+    //   organization: "Multimedia University, Malaysia",
+    //   image: "/iqcctspeaker.jpg",
+    // },
     {
       name: "Prof. Ir. Dr. Fauziahanim Binti Che Seman",
       title: "Head of Center of Excellence, Research Center for Applied Electromagnetics",
